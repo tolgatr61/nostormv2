@@ -1,0 +1,18 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\OpenNos.GameObject",
+    "\\OpenNos.GameObject\\Event",
+    "\\OpenNos.GameObject\\Event\\MINILANDREFRESH",
+    "\\OpenNos.GameObject\\Event\\PARTYTIMESPACE",
+    "\\OpenNos.GameObject\\Event\\TALENTARENA",
+    "\\OpenNos.GameObject\\Event\\TOURNAMENT",
+    "\\OpenNos.GameObject\\Helpers",
+    "\\OpenNos.GameObject\\Map",
+    "\\OpenNos.GameObject\\Packets",
+    "\\OpenNos.GameObject\\Packets\\CommandPackets",
+    "\\OpenNos.XMLModel",
+    "\\OpenNos.XMLModel\\Objects"
+  ],
+  "PreviewInSolutionExplorer": false
+}

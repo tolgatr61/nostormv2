@@ -1,0 +1,9 @@
+C:\Users\Tolga\Desktop\repo_CMNos\cmnos-emulator\OpenNos.XMLModel\bin\Release\OpenNos.XMLModel.dll
+C:\Users\Tolga\Desktop\repo_CMNos\cmnos-emulator\OpenNos.XMLModel\bin\Release\OpenNos.XMLModel.pdb
+C:\Users\Tolga\Desktop\repo_CMNos\cmnos-emulator\OpenNos.XMLModel\bin\Release\OpenNos.Domain.dll
+C:\Users\Tolga\Desktop\repo_CMNos\cmnos-emulator\OpenNos.XMLModel\bin\Release\OpenNos.Domain.pdb
+C:\Users\Tolga\Desktop\repo_CMNos\cmnos-emulator\OpenNos.XMLModel\obj\Release\OpenNos.XMLModel.csprojAssemblyReference.cache
+C:\Users\Tolga\Desktop\repo_CMNos\cmnos-emulator\OpenNos.XMLModel\obj\Release\OpenNos.XMLModel.csproj.CoreCompileInputs.cache
+C:\Users\Tolga\Desktop\repo_CMNos\cmnos-emulator\OpenNos.XMLModel\obj\Release\OpenNos.XMLModel.csproj.CopyComplete
+C:\Users\Tolga\Desktop\repo_CMNos\cmnos-emulator\OpenNos.XMLModel\obj\Release\OpenNos.XMLModel.dll
+C:\Users\Tolga\Desktop\repo_CMNos\cmnos-emulator\OpenNos.XMLModel\obj\Release\OpenNos.XMLModel.pdb

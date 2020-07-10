@@ -1,0 +1,5 @@
+C:\Users\Tolga\Desktop\repo_CMNos\cmnos-emulator\OpenNos.Domain\bin\Release\OpenNos.Domain.dll
+C:\Users\Tolga\Desktop\repo_CMNos\cmnos-emulator\OpenNos.Domain\bin\Release\OpenNos.Domain.pdb
+C:\Users\Tolga\Desktop\repo_CMNos\cmnos-emulator\OpenNos.Domain\obj\Release\OpenNos.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Tolga\Desktop\repo_CMNos\cmnos-emulator\OpenNos.Domain\obj\Release\OpenNos.Domain.dll
+C:\Users\Tolga\Desktop\repo_CMNos\cmnos-emulator\OpenNos.Domain\obj\Release\OpenNos.Domain.pdb

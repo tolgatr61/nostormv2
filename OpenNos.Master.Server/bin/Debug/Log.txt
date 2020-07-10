@@ -1,0 +1,908 @@
+2020-05-25 00:27:00,145 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: Database has been initialized!
+2020-05-25 00:27:00,166 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Config loaded!
+2020-05-25 00:27:00,175 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: MasterServer started successfully.
+2020-05-25 00:27:00,227 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: New client connected. ClientId = 1
+2020-05-25 00:27:14,061 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: New client connected. ClientId = 2
+2020-05-25 00:27:21,225 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: New client connected. ClientId = 3
+2020-05-25 00:27:22,227 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: New client connected. ClientId = 4
+2020-05-25 00:58:02,411 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: Database has been initialized!
+2020-05-25 00:58:02,431 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Config loaded!
+2020-05-25 00:58:02,439 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: MasterServer started successfully.
+2020-05-25 00:58:02,560 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: New client connected. ClientId = 1
+2020-05-25 00:58:15,951 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: New client connected. ClientId = 2
+2020-05-25 00:58:22,036 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: New client connected. ClientId = 3
+2020-05-25 00:58:23,038 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: New client connected. ClientId = 4
+2020-05-25 14:40:43,805 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: Database has been initialized!
+2020-05-25 14:40:43,824 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Config loaded!
+2020-05-25 14:40:43,833 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: MasterServer started successfully.
+2020-05-25 14:41:45,726 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: New client connected. ClientId = 1
+2020-05-25 14:41:46,574 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: New client connected. ClientId = 2
+2020-05-25 14:42:06,322 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: New client connected. ClientId = 3
+2020-05-25 14:42:07,325 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: New client connected. ClientId = 4
+2020-05-25 18:16:38,584 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: Database has been initialized!
+2020-05-25 18:16:38,603 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Config loaded!
+2020-05-25 18:16:38,610 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: MasterServer started successfully.
+2020-05-25 18:17:24,498 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: New client connected. ClientId = 1
+2020-05-25 18:17:25,494 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: New client connected. ClientId = 2
+2020-05-25 18:17:44,686 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: New client connected. ClientId = 3
+2020-05-25 18:17:45,687 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: New client connected. ClientId = 4
+2020-05-25 18:51:39,356 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: Database has been initialized!
+2020-05-25 18:51:39,376 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Config loaded!
+2020-05-25 18:51:39,384 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: MasterServer started successfully.
+2020-05-25 18:51:39,759 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: New client connected. ClientId = 1
+2020-05-25 18:51:53,097 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: New client connected. ClientId = 2
+2020-05-25 18:51:58,168 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: New client connected. ClientId = 3
+2020-05-25 18:51:59,170 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: New client connected. ClientId = 4
+2020-05-27 02:45:37,384 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: Database has been initialized!
+2020-05-27 02:45:37,404 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Config loaded!
+2020-05-27 02:45:37,414 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: MasterServer started successfully.
+2020-05-27 02:45:37,545 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: New client connected. ClientId = 1
+2020-05-27 02:46:44,482 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: Database has been initialized!
+2020-05-27 02:46:44,503 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Config loaded!
+2020-05-27 02:46:44,511 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: MasterServer started successfully.
+2020-05-27 02:46:44,723 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: New client connected. ClientId = 1
+2020-05-27 02:46:58,129 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: New client connected. ClientId = 2
+2020-05-27 02:47:05,655 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: New client connected. ClientId = 3
+2020-05-27 02:47:06,657 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: New client connected. ClientId = 4
+2020-05-30 22:54:14,248 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: Database has been initialized!
+2020-05-30 22:54:14,267 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Config loaded!
+2020-05-30 22:54:14,275 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: MasterServer started successfully.
+2020-05-30 22:54:14,700 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: New client connected. ClientId = 1
+2020-05-30 22:54:27,740 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: New client connected. ClientId = 2
+2020-05-30 22:54:35,048 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: New client connected. ClientId = 3
+2020-05-30 22:54:36,050 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: New client connected. ClientId = 4
+2020-05-30 23:09:16,190 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-05-30 23:09:16,209 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-05-30 23:09:16,216 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-05-30 23:09:16,411 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-05-30 23:09:30,152 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-05-30 23:09:33,397 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-05-30 23:09:34,399 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-05-30 23:34:57,051 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-05-30 23:34:57,071 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-05-30 23:34:57,079 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-05-30 23:34:57,133 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-05-30 23:34:57,246 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-05-30 23:35:15,141 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-05-30 23:35:16,143 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-05-30 23:59:40,477 [52] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =1
+2020-05-30 23:59:40,487 [52] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =2
+2020-05-30 23:59:47,185 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-05-30 23:59:47,204 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-05-30 23:59:47,211 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-05-30 23:59:47,433 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-05-31 00:00:01,184 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-05-31 00:00:33,075 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-05-31 00:00:33,096 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-05-31 00:00:33,104 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-05-31 00:00:33,184 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-05-31 00:00:46,900 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-05-31 00:01:08,418 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-05-31 00:01:08,436 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-05-31 00:01:08,444 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-05-31 00:01:08,520 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-05-31 00:01:08,671 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-05-31 00:01:25,588 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-05-31 00:01:26,589 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-05-31 00:02:53,213 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-05-31 00:02:53,231 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-05-31 00:02:53,238 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-05-31 00:02:53,247 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-05-31 00:02:53,380 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-05-31 00:03:10,452 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-05-31 00:03:11,453 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-05-31 00:05:10,785 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-05-31 00:05:10,805 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-05-31 00:05:10,812 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-05-31 00:05:11,082 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-05-31 00:05:24,474 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-05-31 00:05:28,060 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-05-31 00:05:29,061 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-05-31 00:06:45,254 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-05-31 00:06:45,273 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-05-31 00:06:45,281 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-05-31 00:06:45,391 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-05-31 00:06:59,271 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-05-31 00:07:03,723 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-05-31 00:07:04,724 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-05-31 00:09:57,207 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-05-31 00:09:57,227 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-05-31 00:09:57,234 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-05-31 00:09:57,502 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-05-31 00:10:11,201 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-05-31 00:10:15,819 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-05-31 00:10:16,821 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-05-31 00:12:57,318 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-05-31 00:12:57,337 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-05-31 00:12:57,345 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-05-31 00:12:57,417 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-05-31 00:13:11,147 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-05-31 00:13:15,866 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-05-31 00:13:16,867 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-05-31 00:15:11,962 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-05-31 00:15:11,981 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-05-31 00:15:11,988 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-05-31 00:15:12,080 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-05-31 00:15:25,961 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-05-31 00:15:30,325 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-05-31 00:15:31,327 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-05-31 02:03:34,374 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-05-31 02:03:34,394 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-05-31 02:03:34,402 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-05-31 02:03:34,564 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-05-31 02:03:48,223 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-05-31 02:03:53,861 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-05-31 02:03:54,863 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-05-31 02:10:06,539 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-05-31 02:10:06,559 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-05-31 02:10:06,567 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-05-31 02:10:06,675 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-05-31 02:10:20,546 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-05-31 02:10:25,063 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-05-31 02:10:26,065 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-05-31 02:11:41,769 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-05-31 02:11:41,789 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-05-31 02:11:41,797 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-05-31 02:11:41,863 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-05-31 02:11:41,888 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-05-31 02:11:55,506 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-05-31 02:12:05,246 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-05-31 02:12:05,347 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =5
+2020-05-31 02:12:06,248 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =6
+2020-05-31 02:12:06,349 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =7
+2020-05-31 02:15:20,556 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-05-31 02:15:20,576 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-05-31 02:15:20,583 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-05-31 02:15:20,630 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-05-31 02:15:20,776 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-05-31 02:15:22,454 [3] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =1
+2020-05-31 02:15:22,458 [6] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =2
+2020-05-31 02:15:36,334 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-05-31 02:15:36,353 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-05-31 02:15:36,361 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-05-31 02:15:36,470 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-05-31 02:15:36,601 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-05-31 02:15:50,346 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-05-31 02:15:54,358 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-05-31 02:15:55,360 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =5
+2020-05-31 02:16:23,377 [3] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =3
+2020-05-31 02:16:23,384 [3] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =1
+2020-05-31 02:16:29,923 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-05-31 02:16:29,942 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-05-31 02:16:29,950 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-05-31 02:16:29,978 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-05-31 02:16:30,076 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-05-31 02:16:43,839 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-05-31 02:16:51,983 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-05-31 02:16:51,993 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =5
+2020-05-31 02:16:52,985 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =6
+2020-05-31 02:16:52,995 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =7
+2020-05-31 02:40:36,536 [74] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =2
+2020-05-31 02:40:36,536 [69] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =5
+2020-05-31 02:40:36,536 [77] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =7
+2020-05-31 02:40:36,536 [78] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =3
+2020-05-31 02:40:36,547 [77] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =1
+2020-05-31 02:40:36,548 [69] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =6
+2020-05-31 02:40:52,704 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-05-31 02:40:52,723 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-05-31 02:40:52,732 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-05-31 02:40:52,945 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-05-31 02:40:53,110 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-05-31 02:41:06,232 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-05-31 02:41:15,983 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-05-31 02:41:16,002 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =5
+2020-05-31 02:41:16,985 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =6
+2020-05-31 02:41:17,004 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =7
+2020-05-31 02:51:31,218 [31] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =7
+2020-05-31 05:19:42,864 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-05-31 05:19:42,883 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-05-31 05:19:42,891 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-05-31 05:19:43,014 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-05-31 05:19:43,359 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-05-31 05:19:56,730 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-05-31 05:20:05,699 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-05-31 05:20:05,772 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =5
+2020-05-31 05:20:06,701 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =6
+2020-05-31 05:20:06,774 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =7
+2020-05-31 05:29:44,255 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-05-31 05:29:44,277 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-05-31 05:29:44,286 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-05-31 05:29:44,484 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-05-31 05:29:44,651 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-05-31 05:29:57,835 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-05-31 05:30:06,537 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-05-31 05:30:06,558 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =5
+2020-05-31 05:30:07,539 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =6
+2020-05-31 05:30:07,560 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =7
+2020-05-31 05:50:43,879 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-05-31 05:50:43,902 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-05-31 05:50:43,910 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-05-31 05:50:43,925 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-05-31 05:50:44,281 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-05-31 05:50:57,649 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-05-31 05:51:05,583 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-05-31 05:51:05,628 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =5
+2020-05-31 05:51:06,585 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =6
+2020-05-31 05:51:06,630 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =7
+2020-05-31 06:01:09,281 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-05-31 06:01:09,302 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-05-31 06:01:09,310 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-05-31 06:01:09,327 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-05-31 06:01:09,590 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-05-31 06:01:23,225 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-05-31 06:01:32,086 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-05-31 06:01:32,087 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =5
+2020-05-31 06:01:33,087 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =6
+2020-05-31 06:01:33,088 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =7
+2020-05-31 06:05:33,706 [11] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =1
+2020-05-31 06:05:33,706 [17] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =3
+2020-05-31 06:05:33,706 [21] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =5
+2020-05-31 06:05:33,706 [20] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =7
+2020-05-31 06:05:33,718 [17] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =2
+2020-05-31 06:13:14,846 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-05-31 06:13:14,865 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-05-31 06:13:14,872 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-05-31 06:13:15,114 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-05-31 06:13:15,242 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-05-31 06:13:28,851 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-05-31 06:13:36,957 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-05-31 06:13:36,958 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =5
+2020-05-31 06:13:37,959 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =6
+2020-05-31 06:13:37,960 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =7
+2020-05-31 06:20:04,340 [29] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =3
+2020-05-31 06:20:04,341 [24] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =2
+2020-05-31 06:21:38,816 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-05-31 06:21:38,834 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-05-31 06:21:38,842 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-05-31 06:21:38,908 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-05-31 06:21:39,146 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-05-31 06:21:52,788 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-05-31 06:22:00,926 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-05-31 06:22:00,942 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =5
+2020-05-31 06:22:01,928 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =6
+2020-05-31 06:22:01,944 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =7
+2020-05-31 06:29:43,088 [30] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =6
+2020-05-31 06:29:43,088 [14] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =3
+2020-05-31 06:29:43,088 [23] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =1
+2020-05-31 06:29:43,088 [29] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =4
+2020-05-31 06:29:43,101 [23] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =2
+2020-05-31 06:29:43,101 [14] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =5
+2020-05-31 06:29:43,101 [30] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =7
+2020-05-31 06:29:49,704 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-05-31 06:29:49,723 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-05-31 06:29:49,731 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-05-31 06:29:49,857 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-05-31 06:29:49,957 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-05-31 06:30:03,712 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-05-31 06:30:11,799 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-05-31 06:30:11,800 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =5
+2020-05-31 06:30:12,801 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =6
+2020-05-31 06:30:12,802 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =7
+2020-05-31 06:35:14,958 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-05-31 06:35:14,976 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-05-31 06:35:14,984 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-05-31 06:35:15,150 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-05-31 06:35:15,259 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-05-31 06:35:28,897 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-05-31 06:35:36,828 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-05-31 06:35:36,863 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =5
+2020-05-31 06:35:37,830 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =6
+2020-05-31 06:35:37,866 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =7
+2020-05-31 06:45:24,623 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-05-31 06:45:24,642 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-05-31 06:45:24,649 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-05-31 06:45:24,677 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-05-31 06:45:24,849 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-05-31 06:45:38,541 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-05-31 06:45:45,887 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-05-31 06:45:45,896 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =5
+2020-05-31 06:45:46,889 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =6
+2020-05-31 06:45:46,898 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =7
+2020-05-31 06:48:23,513 [11] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =2
+2020-05-31 06:48:23,513 [13] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =4
+2020-05-31 06:48:23,513 [15] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =6
+2020-05-31 06:48:23,518 [15] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =1
+2020-05-31 06:48:23,519 [11] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =7
+2020-05-31 06:48:23,519 [13] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =5
+2020-05-31 06:48:29,615 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-05-31 06:48:29,633 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-05-31 06:48:29,641 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-05-31 06:48:29,696 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-05-31 06:48:29,813 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-05-31 06:48:43,420 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-05-31 06:48:52,885 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-05-31 06:48:52,897 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =5
+2020-05-31 06:48:53,888 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =6
+2020-05-31 06:48:53,900 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =7
+2020-05-31 06:49:57,845 [15] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =3
+2020-05-31 06:49:57,845 [6] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =2
+2020-05-31 06:49:57,845 [9] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =6
+2020-05-31 06:49:57,845 [14] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =4
+2020-05-31 06:49:57,855 [14] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =1
+2020-05-31 06:49:57,856 [9] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =7
+2020-05-31 06:49:57,856 [6] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =5
+2020-06-01 15:01:49,733 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-06-01 15:01:49,805 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-06-01 15:01:49,818 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-06-01 15:01:50,066 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-06-01 15:01:50,068 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-06-01 15:02:03,170 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-06-01 15:02:12,859 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-06-01 15:02:12,913 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =5
+2020-06-01 15:02:13,861 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =6
+2020-06-01 15:02:13,914 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =7
+2020-06-01 15:02:46,023 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-06-01 15:02:46,042 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-06-01 15:02:46,049 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-06-01 15:02:46,089 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-06-01 15:02:46,233 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-06-01 15:02:59,953 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-06-01 15:03:07,456 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-06-01 15:03:08,459 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =5
+2020-06-01 15:03:09,498 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =6
+2020-06-01 15:03:10,499 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =7
+2020-06-01 15:18:50,535 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-06-01 15:18:50,555 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-06-01 15:18:50,563 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-06-01 15:18:50,618 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-06-01 15:18:50,621 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-06-01 15:18:50,626 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-06-01 15:19:13,805 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-06-01 15:19:13,839 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =5
+2020-06-01 15:19:14,807 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =6
+2020-06-01 15:19:14,841 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =7
+2020-06-01 15:19:51,656 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-06-01 15:19:51,676 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-06-01 15:19:51,684 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-06-01 15:19:51,826 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-06-01 15:19:51,935 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-06-01 15:20:05,546 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-06-01 15:20:13,541 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-06-01 15:20:13,572 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =5
+2020-06-01 15:20:14,542 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =6
+2020-06-01 15:20:14,574 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =7
+2020-06-02 17:16:29,569 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-06-02 17:16:29,589 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-06-02 17:16:29,598 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-06-02 17:16:29,678 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-06-02 17:16:29,769 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-06-02 17:16:46,892 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-06-02 17:16:47,894 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-06-03 03:28:34,002 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-06-03 03:28:34,073 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-06-03 03:28:34,085 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-06-03 03:28:34,115 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-06-03 03:28:47,739 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-06-03 03:28:51,492 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-06-03 03:28:52,493 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-06-29 01:36:24,134 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-06-29 01:36:24,152 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-06-29 01:36:24,160 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-06-29 01:36:24,240 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-06-29 01:36:37,550 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-06-29 01:36:42,560 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-06-29 01:36:43,563 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-06-29 18:27:22,282 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-06-29 18:27:22,302 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-06-29 18:27:22,310 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-06-29 18:27:22,342 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-06-29 18:27:35,745 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-06-29 18:27:40,698 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-06-29 18:27:41,700 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-06-29 18:35:52,372 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-06-29 18:35:52,392 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-06-29 18:35:52,402 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-06-29 18:35:52,760 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-06-29 18:36:06,144 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-06-29 18:36:14,202 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-06-29 18:36:15,204 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-06-29 21:51:17,820 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-06-29 21:51:17,839 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-06-29 21:51:17,847 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-06-29 21:51:18,297 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-06-29 21:51:31,824 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-06-29 21:51:36,042 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-06-29 21:51:37,044 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-06-29 21:55:43,732 [10] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =2
+2020-06-29 21:55:43,781 [10] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =1
+2020-06-29 21:55:49,431 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-06-29 21:55:49,450 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-06-29 21:55:49,458 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-06-29 21:55:49,573 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-06-29 21:56:03,472 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-06-29 21:56:06,445 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-06-29 21:56:07,446 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-06-30 17:18:49,738 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-06-30 17:18:49,836 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-06-30 17:18:49,844 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-06-30 17:18:49,973 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-06-30 17:19:03,026 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-06-30 17:19:07,558 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-06-30 17:19:08,560 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-06-30 17:41:22,404 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-06-30 17:41:22,423 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-06-30 17:41:22,430 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-06-30 17:41:22,500 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-06-30 17:41:22,597 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-06-30 17:41:40,839 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-06-30 17:41:41,840 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-06-30 18:03:46,150 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-06-30 18:03:46,168 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-06-30 18:03:46,176 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-06-30 18:03:46,218 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-06-30 18:04:00,126 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-06-30 18:04:02,326 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-06-30 18:04:03,328 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-06-30 18:05:17,630 [3] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =2
+2020-06-30 18:05:23,189 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-06-30 18:05:23,208 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-06-30 18:05:23,216 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-06-30 18:05:23,371 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-06-30 18:05:46,874 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-06-30 18:05:46,893 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-06-30 18:05:46,901 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-06-30 18:05:47,057 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-06-30 18:06:00,828 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-06-30 18:06:03,282 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-06-30 18:06:04,284 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-06-30 18:12:19,757 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-06-30 18:12:19,777 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-06-30 18:12:19,785 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-06-30 18:12:19,795 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-06-30 18:12:37,104 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-06-30 18:12:38,106 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-06-30 18:13:23,487 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-06-30 18:13:23,507 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-06-30 18:13:23,515 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-06-30 18:13:23,666 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-06-30 18:13:37,437 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-06-30 18:13:40,997 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-06-30 18:13:41,998 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-06-30 18:15:58,037 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-06-30 18:15:58,056 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-06-30 18:15:58,064 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-06-30 18:15:58,142 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-06-30 18:16:11,917 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-06-30 18:16:15,115 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-06-30 18:16:16,117 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-06-30 18:59:35,776 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-06-30 18:59:35,795 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-06-30 18:59:35,802 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-06-30 18:59:35,980 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-06-30 18:59:49,749 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-06-30 18:59:52,738 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-06-30 18:59:53,740 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-06-30 19:02:05,885 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-06-30 19:02:05,903 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-06-30 19:02:05,911 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-06-30 19:02:06,064 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-06-30 19:02:19,828 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-06-30 19:02:22,696 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-06-30 19:02:23,697 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-06-30 19:23:27,983 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-06-30 19:23:28,003 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-06-30 19:23:28,011 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-06-30 19:23:28,153 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-06-30 19:23:41,932 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-06-30 19:23:44,392 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-06-30 19:23:45,394 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-06-30 19:31:35,199 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-06-30 19:31:35,217 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-06-30 19:31:35,225 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-06-30 19:31:35,327 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-06-30 19:31:49,088 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-06-30 19:31:51,746 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-06-30 19:31:52,748 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-06-30 19:49:51,821 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-06-30 19:49:51,839 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-06-30 19:49:51,847 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-06-30 19:49:51,926 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-06-30 19:49:52,029 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-06-30 19:50:08,945 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-06-30 19:50:09,947 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-06-30 20:24:35,586 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-06-30 20:24:35,606 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-06-30 20:24:35,614 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-06-30 20:24:35,649 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-06-30 20:24:49,151 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-06-30 20:24:56,727 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-06-30 20:24:57,729 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-07-01 14:30:40,562 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-07-01 14:30:40,622 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-07-01 14:30:40,633 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-07-01 14:30:52,384 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-07-01 14:30:53,336 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-07-01 14:31:12,324 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-07-01 14:31:13,326 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-07-01 15:51:41,044 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-07-01 15:51:41,066 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-07-01 15:51:41,076 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-07-01 15:51:41,398 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-07-01 15:51:54,483 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-07-01 15:52:00,031 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-07-01 15:52:01,033 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-07-01 16:15:52,622 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-07-01 16:15:52,643 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-07-01 16:15:52,652 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-07-01 16:15:52,687 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-07-01 16:16:06,440 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-07-01 16:16:10,625 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-07-01 16:16:11,627 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-07-01 16:20:45,612 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-07-01 16:20:45,631 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-07-01 16:20:45,639 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-07-01 16:20:45,673 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-07-01 16:21:05,959 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-07-01 16:21:06,960 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-07-01 16:22:27,414 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-07-01 16:22:27,433 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-07-01 16:22:27,441 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-07-01 16:22:27,542 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-07-01 16:22:41,306 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-07-01 16:23:19,158 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-07-01 16:23:19,177 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-07-01 16:23:19,184 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-07-01 16:23:19,408 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-07-01 16:23:33,146 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-07-01 16:23:35,366 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-07-01 16:23:36,368 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-07-01 16:28:08,316 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-07-01 16:28:08,335 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-07-01 16:28:08,344 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-07-01 16:28:08,839 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-07-01 16:28:21,839 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-07-01 16:28:26,616 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-07-01 16:28:27,618 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-07-01 18:01:36,358 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-07-01 18:01:36,379 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-07-01 18:01:36,387 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-07-01 18:01:36,509 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-07-01 18:01:50,020 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-07-01 18:01:54,812 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-07-01 18:01:55,814 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-07-01 18:03:30,791 [3] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =2
+2020-07-01 18:03:30,799 [3] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =1
+2020-07-01 18:03:30,800 [3] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =4
+2020-07-01 18:04:07,240 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-07-01 18:04:07,259 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-07-01 18:04:07,267 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-07-01 18:04:07,411 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-07-01 18:04:07,531 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-07-01 18:04:21,172 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-07-01 18:04:28,221 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-07-01 18:04:28,329 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =5
+2020-07-01 18:04:29,223 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =6
+2020-07-01 18:04:29,331 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =7
+2020-07-01 18:18:53,882 [52] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =3
+2020-07-01 18:18:53,882 [50] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =7
+2020-07-01 18:18:53,882 [40] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =2
+2020-07-01 18:18:53,883 [51] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =5
+2020-07-01 18:18:53,892 [52] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =1
+2020-07-01 18:18:53,894 [52] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =4
+2020-07-01 18:18:53,894 [50] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =6
+2020-07-01 18:24:15,573 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-07-01 18:24:15,593 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-07-01 18:24:15,601 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-07-01 18:24:15,785 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-07-01 18:24:15,958 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-07-01 18:24:29,488 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-07-01 18:24:39,335 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-07-01 18:24:39,344 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =5
+2020-07-01 18:24:40,337 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =6
+2020-07-01 18:24:40,346 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =7
+2020-07-01 18:25:33,765 [3] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =1
+2020-07-01 18:25:33,765 [10] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =5
+2020-07-01 18:25:33,765 [12] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =7
+2020-07-01 18:25:33,766 [13] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =3
+2020-07-01 18:25:33,778 [13] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =2
+2020-07-01 18:25:33,779 [3] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =4
+2020-07-01 18:25:33,779 [13] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =6
+2020-07-01 18:26:17,557 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-07-01 18:26:17,578 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-07-01 18:26:17,586 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-07-01 18:26:17,908 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-07-01 18:26:17,931 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-07-01 18:26:30,875 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-07-01 18:26:40,527 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-07-01 18:26:40,535 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =5
+2020-07-01 18:26:41,529 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =6
+2020-07-01 18:26:41,537 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =7
+2020-07-01 18:27:56,464 [3] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =1
+2020-07-01 18:27:56,464 [14] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =4
+2020-07-01 18:27:56,464 [17] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =6
+2020-07-01 18:27:56,470 [14] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =2
+2020-07-01 18:27:56,471 [3] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =7
+2020-07-01 18:27:56,472 [14] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =5
+2020-07-01 18:28:49,108 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-07-01 18:28:49,127 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-07-01 18:28:49,136 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-07-01 18:28:49,166 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-07-01 18:28:49,254 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-07-01 18:29:03,004 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-07-01 18:29:10,975 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-07-01 18:29:11,013 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =5
+2020-07-01 18:29:11,977 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =6
+2020-07-01 18:29:12,015 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =7
+2020-07-01 18:31:00,507 [3] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =2
+2020-07-01 18:31:00,507 [9] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =4
+2020-07-01 18:31:00,507 [11] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =6
+2020-07-01 18:31:00,514 [3] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =1
+2020-07-01 18:31:00,515 [9] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =5
+2020-07-01 18:31:00,516 [12] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =7
+2020-07-01 20:42:29,565 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-07-01 20:42:29,585 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-07-01 20:42:29,593 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-07-01 20:42:29,682 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-07-01 20:42:29,793 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-07-01 20:42:43,299 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-07-01 20:42:51,926 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-07-01 20:42:51,929 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =5
+2020-07-01 20:42:52,928 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =6
+2020-07-01 20:42:52,931 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =7
+2020-07-01 20:48:29,862 [32] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =6
+2020-07-01 20:48:29,862 [31] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =4
+2020-07-01 20:48:29,862 [28] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =1
+2020-07-01 20:48:29,878 [32] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =2
+2020-07-01 20:48:29,879 [32] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =7
+2020-07-01 20:48:29,879 [28] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =5
+2020-07-01 20:55:26,586 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-07-01 20:55:26,606 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-07-01 20:55:26,615 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-07-01 20:55:26,671 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-07-01 20:55:26,889 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-07-01 20:55:40,527 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-07-01 20:55:47,909 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-07-01 20:55:48,005 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =5
+2020-07-01 20:55:48,911 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =6
+2020-07-01 20:55:49,007 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =7
+2020-07-01 21:02:12,601 [23] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =7
+2020-07-01 21:02:12,601 [33] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =5
+2020-07-01 21:02:12,601 [32] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =2
+2020-07-01 21:02:12,606 [23] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =1
+2020-07-01 21:02:12,607 [23] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =4
+2020-07-01 21:04:18,644 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-07-01 21:04:18,663 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-07-01 21:04:18,670 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-07-01 21:04:18,716 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-07-01 21:04:18,845 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-07-01 21:04:32,590 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-07-01 21:04:41,077 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-07-01 21:04:41,079 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =5
+2020-07-01 21:04:42,078 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =6
+2020-07-01 21:04:42,080 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =7
+2020-07-01 21:34:21,947 [72] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =5
+2020-07-01 21:34:21,947 [67] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =2
+2020-07-01 21:34:21,947 [70] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =7
+2020-07-01 21:34:21,954 [70] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =1
+2020-07-01 21:34:21,979 [70] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =6
+2020-07-01 21:34:21,979 [67] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =4
+2020-07-02 17:34:48,954 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-07-02 17:34:48,992 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-07-02 17:34:49,001 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-07-02 17:35:01,727 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-07-02 17:35:02,595 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-07-02 17:35:02,648 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-07-02 17:35:28,423 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-07-02 17:35:28,503 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =5
+2020-07-02 17:35:29,425 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =6
+2020-07-02 17:35:29,505 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =7
+2020-07-02 17:36:25,259 [14] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =7
+2020-07-02 17:36:25,259 [15] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =5
+2020-07-02 17:36:25,274 [3] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =3
+2020-07-02 17:36:25,281 [3] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =2
+2020-07-02 17:36:25,282 [14] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =6
+2020-07-02 17:36:25,282 [3] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =4
+2020-07-02 17:36:31,784 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-07-02 17:36:31,804 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-07-02 17:36:31,811 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-07-02 17:36:31,885 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-07-02 17:36:32,267 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-07-02 17:36:45,631 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-07-02 17:36:53,501 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-07-02 17:36:53,533 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =5
+2020-07-02 17:36:54,503 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =6
+2020-07-02 17:36:54,535 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =7
+2020-07-02 17:40:35,205 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-07-02 17:40:35,223 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-07-02 17:40:35,231 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-07-02 17:40:35,259 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-07-02 17:40:35,409 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-07-02 17:40:35,512 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-07-02 17:40:58,833 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-07-02 17:40:58,848 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =5
+2020-07-02 17:40:59,836 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =6
+2020-07-02 17:40:59,851 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =7
+2020-07-02 17:46:56,092 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-07-02 17:46:56,113 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-07-02 17:46:56,123 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-07-02 17:46:56,273 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-07-02 17:46:56,419 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-07-02 17:47:09,520 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-07-02 17:47:20,191 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-07-02 17:47:20,214 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =5
+2020-07-02 17:47:21,193 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =6
+2020-07-02 17:47:21,216 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =7
+2020-07-02 17:58:12,570 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-07-02 17:58:12,596 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-07-02 17:58:12,607 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-07-02 17:58:12,779 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-07-02 17:58:12,894 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-07-02 17:58:25,461 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-07-02 17:58:41,045 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-07-02 17:58:41,107 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =5
+2020-07-02 17:58:42,047 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =6
+2020-07-02 17:58:42,110 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =7
+2020-07-03 01:09:47,738 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-07-03 01:09:47,774 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-07-03 01:09:47,784 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-07-03 01:10:00,314 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-07-03 01:10:01,287 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-07-03 01:10:01,302 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-07-03 01:10:24,470 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-07-03 01:10:24,492 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =5
+2020-07-03 01:10:25,471 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =6
+2020-07-03 01:10:25,493 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =7
+2020-07-03 01:41:34,199 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-07-03 01:41:34,218 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-07-03 01:41:34,225 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-07-03 01:41:34,246 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-07-03 01:41:34,395 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-07-03 01:41:34,496 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-07-03 01:41:56,105 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-07-03 01:41:56,106 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =5
+2020-07-03 01:41:57,107 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =6
+2020-07-03 01:41:57,108 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =7
+2020-07-03 01:44:19,882 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-07-03 01:44:19,903 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-07-03 01:44:19,911 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-07-03 01:44:19,967 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-07-03 01:44:20,291 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-07-03 01:44:33,528 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-07-03 01:44:42,900 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-07-03 01:44:43,009 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =5
+2020-07-03 01:44:43,902 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =6
+2020-07-03 01:44:44,011 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =7
+2020-07-03 01:45:50,178 [3] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =1
+2020-07-03 01:45:50,178 [11] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =4
+2020-07-03 01:45:50,178 [14] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =6
+2020-07-03 01:45:50,184 [3] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =2
+2020-07-03 01:48:53,806 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-07-03 01:48:53,825 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-07-03 01:48:53,833 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-07-03 01:48:53,986 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-07-03 01:48:54,104 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-07-03 01:49:07,849 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-07-03 01:49:17,427 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-07-03 01:49:17,445 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =5
+2020-07-03 01:49:18,429 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =6
+2020-07-03 01:49:18,447 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =7
+2020-07-03 01:53:15,532 [3] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =2
+2020-07-03 01:53:15,532 [12] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =7
+2020-07-03 01:53:15,532 [14] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =5
+2020-07-03 01:53:15,537 [12] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =1
+2020-07-03 01:53:15,538 [12] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =4
+2020-07-03 01:53:15,538 [3] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =6
+2020-07-03 18:57:49,531 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-07-03 18:57:49,584 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-07-03 18:57:49,592 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-07-03 18:58:01,867 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-07-03 18:58:02,766 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-07-03 18:58:02,826 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-07-03 18:58:25,146 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-07-03 18:58:25,163 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =5
+2020-07-03 18:58:26,148 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =6
+2020-07-03 18:58:26,164 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =7
+2020-07-03 19:20:42,457 [73] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =2
+2020-07-03 19:20:42,457 [69] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =1
+2020-07-03 19:20:42,478 [74] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =7
+2020-07-03 19:20:42,478 [75] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =5
+2020-07-03 19:20:42,481 [74] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =3
+2020-07-03 19:20:42,481 [75] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =6
+2020-07-03 19:20:42,481 [74] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =4
+2020-07-04 00:05:46,914 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-07-04 00:05:46,945 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-07-04 00:05:46,958 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-07-04 00:05:57,534 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-07-04 00:05:58,527 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-07-04 00:05:58,538 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-07-04 00:06:21,769 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-07-04 00:06:21,770 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =5
+2020-07-04 00:06:22,770 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =6
+2020-07-04 00:06:22,771 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =7
+2020-07-04 00:07:05,776 [3] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =1
+2020-07-04 00:07:05,777 [12] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =3
+2020-07-04 00:07:05,779 [15] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =4
+2020-07-04 00:07:05,799 [16] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =6
+2020-07-04 00:09:08,436 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-07-04 00:09:08,456 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-07-04 00:09:08,464 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-07-04 00:09:08,526 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-07-04 00:09:08,746 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-07-04 00:09:22,416 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-07-04 00:09:29,987 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-07-04 00:09:30,117 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =5
+2020-07-04 00:09:30,990 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =6
+2020-07-04 00:09:31,120 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =7
+2020-07-04 01:43:53,205 [122] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =1
+2020-07-04 01:43:53,205 [127] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =6
+2020-07-04 01:43:53,205 [128] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =4
+2020-07-04 01:43:53,230 [127] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =2
+2020-07-04 01:43:53,230 [122] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =7
+2020-07-04 01:43:53,230 [128] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =5
+2020-07-04 01:44:01,154 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-07-04 01:44:01,175 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-07-04 01:44:01,183 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-07-04 01:44:01,228 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-07-04 01:44:01,588 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-07-04 01:44:14,761 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-07-04 01:44:25,728 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-07-04 01:44:26,730 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =5
+2020-07-04 01:44:42,190 [9] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =2
+2020-07-04 01:44:54,498 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-07-04 01:44:54,520 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-07-04 01:44:54,528 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-07-04 01:44:54,820 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-07-04 01:44:54,934 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-07-04 01:45:08,021 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-07-04 01:45:13,819 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-07-04 01:45:14,821 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =5
+2020-07-04 01:45:27,656 [3] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =2
+2020-07-04 01:45:27,656 [9] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =5
+2020-07-04 01:45:27,656 [6] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =4
+2020-07-04 01:45:27,663 [6] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =1
+2020-07-04 01:45:52,872 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-07-04 01:45:52,892 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-07-04 01:45:52,900 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-07-04 01:45:52,949 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-07-04 01:45:53,331 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-07-04 01:46:06,348 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-07-04 01:46:17,727 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-07-04 01:46:17,772 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =5
+2020-07-04 01:46:18,729 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =6
+2020-07-04 01:46:18,774 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =7
+2020-07-04 03:20:09,612 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-07-04 03:20:09,634 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-07-04 03:20:09,642 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-07-04 03:20:09,750 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-07-04 03:20:09,899 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-07-04 03:20:22,748 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-07-04 03:20:33,834 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-07-04 03:20:33,913 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =5
+2020-07-04 03:20:34,836 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =6
+2020-07-04 03:20:34,915 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =7
+2020-07-04 13:54:02,730 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-07-04 13:54:02,752 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-07-04 13:54:02,760 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-07-04 13:55:04,960 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-07-04 13:55:05,891 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-07-04 13:55:05,928 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-07-04 13:55:29,336 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-07-04 13:55:29,389 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =5
+2020-07-04 13:55:30,338 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =6
+2020-07-04 13:55:30,391 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =7
+2020-07-05 00:18:05,812 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-07-05 00:18:05,850 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-07-05 00:18:05,858 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-07-05 00:18:06,026 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-07-05 00:18:06,309 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-07-05 00:18:19,037 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-07-05 00:18:28,572 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-07-05 00:18:28,573 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =5
+2020-07-05 00:18:29,574 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =6
+2020-07-05 00:18:29,575 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =7
+2020-07-05 00:25:15,984 [18] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =1
+2020-07-05 00:25:15,984 [21] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =7
+2020-07-05 00:25:15,984 [23] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =4
+2020-07-05 00:25:16,007 [21] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =2
+2020-07-05 00:25:16,007 [18] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =6
+2020-07-05 00:25:16,007 [23] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientDisconnected]: Un client s'est déconnecté ! ClientId =5
+2020-07-06 23:57:04,017 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Initialize]: La base de données a été initialisée !
+2020-07-06 23:57:04,107 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: La configuration a été chargée.
+2020-07-06 23:57:04,116 [1] INFO  OpenNos.Master.Server.Program [(null)] - [Main]: Le serveur à démarré sans problèmes !
+2020-07-06 23:57:16,183 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =1
+2020-07-06 23:57:17,056 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =2
+2020-07-06 23:57:17,113 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =3
+2020-07-06 23:57:41,082 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =4
+2020-07-06 23:57:41,106 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =5
+2020-07-06 23:57:42,084 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =6
+2020-07-06 23:57:42,108 [5] INFO  OpenNos.Master.Server.Program [(null)] - [OnClientConnected]: Un nouveau client est connecté. ClientId =7
