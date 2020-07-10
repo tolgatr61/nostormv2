@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Definition>
+  <Globals>
+    <Id Value="3" />
+    <Label Value="Arraignée noire géante" />
+    <LevelMinimum Value="60" />
+    <LevelMaximum Value="99" />
+    <StartX Value="55" />
+	<Reputation Value="500" />
+    <StartY Value="56" />
+    <RequiredItems>
+      <Item VNum="1130" Amount="1" />
+    </RequiredItems>
+    <GiftItems>
+      <Item Amount="1" VNum="302" Design="3" IsRandomRare="1" />
+    </GiftItems>
+  </Globals>
+  <InstanceEvents>
+    <CreateMap Map="0" VNum="2532">
+      <SetMonsterLockers Value="1" />
+      <SetButtonLockers Value="0" />
+      <RefreshRaidGoals/>
+      <SummonMonster VNum="289" PositionX="33" PositionY="36" IsHostile="true" IsBoss="1">
+        <OnDeath>
+          <RemoveMonsterLocker/>
+          <RefreshRaidGoals/>
+          <End Type="1" />
+          <ThrowItem VNum="1046" PackAmount="10" MinAmount="70000" MaxAmount="100000"/>
+        </OnDeath>
+      </SummonMonster>
+    </CreateMap>
+  </InstanceEvents>
+</Definition>

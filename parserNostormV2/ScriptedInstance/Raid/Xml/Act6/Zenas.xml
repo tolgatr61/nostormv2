@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Definition>
+	<Globals>
+		<Id Value="23" />
+		<Label Value="Déesse Zenas" />
+		<LevelMinimum Value="90" />
+		<LevelMaximum Value="99" />
+		<StartX Value="227" />
+		<StartY Value="130" />
+		<RequiredItems>
+			<Item Amount="1" VNum="5883" />
+		</RequiredItems>
+		<GiftItems>
+			<Item Amount="1" Design="23" IsRandomRare="true" VNum="302" />
+		</GiftItems>
+	</Globals>
+	<InstanceEvents>
+		<CreateMap Map="0" VNum="2602">
+		<OnCharacterDiscoveringMap>
+                <GenerateClock Value="18000" />
+                <StartClock>
+                    <OnTimeout>
+                        <End Type="2"/>
+                    </OnTimeout>
+                </StartClock>
+                <SetMonsterLockers Value="4" />
+                <SetButtonLockers Value="0" />
+            </OnCharacterDiscoveringMap>
+			<SummonMonster IsHostile="true" IsTarget="true" Move="false" PositionX="230" PositionY="108" VNum="2506">
+				<OnDeath>
+					<RemoveMonsterLocker />
+					<RefreshRaidGoals />
+				</OnDeath>
+			</SummonMonster>
+			<SummonMonster IsHostile="true" IsTarget="true" Move="false" PositionX="245" PositionY="116" VNum="2507">
+				<OnDeath>
+					<RemoveMonsterLocker />
+					<RefreshRaidGoals />
+				</OnDeath>
+			</SummonMonster>
+			<SummonMonster IsHostile="true" IsTarget="true" Move="false" PositionX="254" PositionY="100" VNum="2508">
+				<OnDeath>
+					<RemoveMonsterLocker />
+					<RefreshRaidGoals />
+				</OnDeath>
+			</SummonMonster>
+			<SummonMonster IsHostile="true" IsTarget="true" Move="false" PositionX="239" PositionY="92" VNum="2509">
+				<OnDeath>
+					<RemoveMonsterLocker />
+					<RefreshRaidGoals />
+				</OnDeath>
+			</SummonMonster>
+			<OnLockerOpen>
+				<ChangePortalType IdOnMap="0" Type="2" />
+				<RefreshMapItems />
+				<SendMessage Type="0" Value="La porte est ouverte!" />
+			</OnLockerOpen>
+			<SpawnPortal IdOnMap="0" PositionX="241" PositionY="107" ToMap="1" ToX="226" ToY="131" Type="1" />
+			<GenerateClock Value="24000" />
+			<StartClock />
+		</CreateMap>
+		<CreateMap Map="1" VNum="2602">
+		<OnCharacterDiscoveringMap>
+                <GenerateClock Value="18000" />
+                <StartClock>
+                    <OnTimeout>
+                        <End Type="2"/>
+                    </OnTimeout>
+                </StartClock>
+                <SetMonsterLockers Value="1" />
+                <SetButtonLockers Value="0" />
+				<SendMessage Type="0" Value="L'archange Lucifer est apparu" />
+            </OnCharacterDiscoveringMap>
+			<SummonMonster IsHostile="true" IsTarget="true" Move="true" PositionX="240" PositionY="107" VNum="2553">
+				<OnDeath>
+					<RemoveMonsterLocker />
+					<RefreshRaidGoals />
+				</OnDeath>
+			</SummonMonster>
+			<OnLockerOpen>
+				<ChangePortalType IdOnMap="0" Type="2" />
+				<RefreshMapItems />
+				<SendMessage Type="0" Value="L'Archange Lucifer a été vaincu. La porte est désormais ouverte!" />
+			</OnLockerOpen>
+			<SpawnPortal IdOnMap="0" PositionX="240" PositionY="107" ToMap="2" ToX="159" ToY="173" Type="1" />
+		</CreateMap>
+		<CreateMap Map="2" VNum="2602">
+		<OnCharacterDiscoveringMap>
+                <GenerateClock Value="18000" />
+                <StartClock>
+                    <OnTimeout>
+                        <End Type="2"/>
+                    </OnTimeout>
+                </StartClock>
+                <SetMonsterLockers Value="1" />
+                <SetButtonLockers Value="0" />
+				<SendMessage Type="0" Value="Le moment est venu de prouver ta force. Défait la déesse!" />
+            </OnCharacterDiscoveringMap>
+			<SummonMonster IsBoss="true" IsHostile="true" IsTarget="true" Move="true" PositionX="160" PositionY="128" VNum="2504">
+				<OnDeath>
+					<RemoveMonsterLocker />
+					<RefreshRaidGoals />
+					<End Type="1" />
+					<ThrowItem MaxAmount="2" MinAmount="1" PackAmount="1" VNum="1020" />
+					<ThrowItem MaxAmount="2" MinAmount="1" PackAmount="1" VNum="1020" />
+					<ThrowItem MaxAmount="2" MinAmount="1" PackAmount="1" VNum="1020" />
+					<ThrowItem MaxAmount="2" MinAmount="1" PackAmount="1" VNum="1021" />
+					<ThrowItem MaxAmount="2" MinAmount="1" PackAmount="1" VNum="1021" />
+					<ThrowItem MaxAmount="4" MinAmount="3" PackAmount="3" VNum="1009" />
+					<ThrowItem MaxAmount="4" MinAmount="3" PackAmount="3" VNum="1009" />
+					<ThrowItem MaxAmount="4" MinAmount="3" PackAmount="3" VNum="1009" />
+					<ThrowItem MaxAmount="4" MinAmount="3" PackAmount="3" VNum="1009" />
+					<ThrowItem MaxAmount="4" MinAmount="3" PackAmount="3" VNum="1009" />
+					<ThrowItem MaxAmount="2" MinAmount="1" PackAmount="1" VNum="1010" />
+					<ThrowItem MaxAmount="2" MinAmount="1" PackAmount="1" VNum="1010" />
+					<ThrowItem MaxAmount="2" MinAmount="1" PackAmount="1" VNum="1010" />
+					<ThrowItem MaxAmount="2" MinAmount="1" PackAmount="1" VNum="1010" />
+					<ThrowItem MaxAmount="2" MinAmount="1" PackAmount="1" VNum="1010" />
+					<ThrowItem MaxAmount="3" MinAmount="2" PackAmount="2" VNum="2503" />
+					<ThrowItem MaxAmount="3" MinAmount="2" PackAmount="2" VNum="2503" />
+					<ThrowItem MaxAmount="3" MinAmount="2" PackAmount="2" VNum="2503" />
+					<ThrowItem MaxAmount="2" MinAmount="1" PackAmount="1" VNum="2504" />
+					<ThrowItem MaxAmount="2" MinAmount="1" PackAmount="1" VNum="5919" />
+					<ThrowItem MaxAmount="2" MinAmount="1" PackAmount="1" VNum="2506" />
+					<ThrowItem MaxAmount="2" MinAmount="1" PackAmount="1" VNum="2506" />
+					<ThrowItem MaxAmount="2" MinAmount="1" PackAmount="1" VNum="2901" />
+					<ThrowItem MaxAmount="2" MinAmount="1" PackAmount="1" VNum="2901" />
+					<ThrowItem MaxAmount="2" MinAmount="1" PackAmount="1" VNum="2900" />
+					<ThrowItem MaxAmount="2" MinAmount="1" PackAmount="1" VNum="2900" />
+					<ThrowItem MaxAmount="2" MinAmount="1" PackAmount="1" VNum="2900" />
+					<ThrowItem MaxAmount="2" MinAmount="1" PackAmount="1" VNum="2900" />
+					<ThrowItem MaxAmount="256346" MinAmount="198543" PackAmount="1" VNum="1046" />
+					<ThrowItem MaxAmount="256346" MinAmount="198543" PackAmount="1" VNum="1046" />
+					<ThrowItem MaxAmount="256346" MinAmount="198543" PackAmount="1" VNum="1046" />
+					<ThrowItem MaxAmount="256346" MinAmount="198543" PackAmount="1" VNum="1046" />
+					<ThrowItem MaxAmount="256346" MinAmount="198543" PackAmount="1" VNum="1046" />
+					<ThrowItem MaxAmount="256346" MinAmount="198543" PackAmount="1" VNum="1046" />
+					<ThrowItem MaxAmount="256346" MinAmount="198543" PackAmount="1" VNum="1046" />
+					<ThrowItem MaxAmount="256346" MinAmount="198543" PackAmount="1" VNum="1046" />
+					<ThrowItem MaxAmount="256346" MinAmount="198543" PackAmount="1" VNum="1046" />
+					<ThrowItem MaxAmount="256346" MinAmount="198543" PackAmount="1" VNum="1046" />
+					<ThrowItem MaxAmount="256346" MinAmount="198543" PackAmount="1" VNum="1046" />
+					<ThrowItem MaxAmount="256346" MinAmount="198543" PackAmount="1" VNum="1046" />
+					<ThrowItem MaxAmount="256346" MinAmount="198543" PackAmount="1" VNum="1046" />
+				</OnDeath>
+			</SummonMonster>
+		</CreateMap>
+	</InstanceEvents>
+</Definition>

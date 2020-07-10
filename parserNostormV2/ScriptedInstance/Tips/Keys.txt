@@ -1,0 +1,4 @@
+keys fr :
+
+LocalizedResources.fr.resx
+LocalizedResources.Designer.cs

@@ -1,0 +1,11 @@
+// Family FXP en boucle
+                case 3600:
+                    if (session.Character.Family != null)
+                    {
+                        session.Character.GenerateFamilyXp(1000);
+                    }
+                    else
+                    {
+                        session.SendPacket(UserInterfaceHelper.GenerateMsg("Vous n'avez pas de famille.", 0));
+                    }
+                    break;

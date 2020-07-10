@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition>
+    <Globals>
+        <Id Value="26" />
+        <Label Value="Fafnir" />
+        <LevelMinimum Value="70"/>
+        <LevelMaximum Value="99"/>
+        <StartX Value="104" />
+        <StartY Value="76" />
+        <Reputation Value="1000" />
+        <RequiredItems>
+            <Item VNum="5857" Amount="1"/>
+        </RequiredItems>
+        <GiftItems>
+            <Item Amount="1" VNum="302" Design="26" IsRandomRare="true"/>
+        </GiftItems>
+    </Globals>
+    <InstanceEvents>
+        <CreateMap Map="0" VNum="2610">
+                <SetMonsterLockers Value="1" />
+                <SetButtonLockers Value="0" />
+            <SummonMonster VNum="2619" PositionX="88" PositionY="67" IsBoss="true">
+                <OnDeath>
+                    <RemoveMonsterLocker/>
+                    <RefreshRaidGoals/>
+                    <End Type="1"/>
+					<ThrowItem VNum="1030" Amount="15" PackAmount="5"/>
+					<ThrowItem VNum="2282" Amount="15" PackAmount="5"/>
+                    <ThrowItem VNum="1046" PackAmount="30" MinAmount="10000" MaxAmount="15000"/>
+                </OnDeath>
+            </SummonMonster>
+			<OnMoveOnMap>
+				<Wave Offset="1" Delay="30">
+					<SendMessage Value="Les ennemis recoivent de l'aide!" Type="0"/>
+					<SummonMonster VNum="480" PositionX="8" PositionY="15"/>
+					<SummonMonster VNum="480" PositionX="15" PositionY="6"/>
+				</Wave>
+			</OnMoveOnMap>
+        </CreateMap>
+    </InstanceEvents>
+</Definition>

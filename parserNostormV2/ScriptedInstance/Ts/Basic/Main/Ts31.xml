@@ -1,0 +1,148 @@
+<Definition>
+  <Globals>
+    <Label Value="Tom t'a provoqué en duel pour tester tes forces ! Tu ne peux pas reculer  Prouve-lui ta bravoure en l'affrontant !" />
+    <Title Value="Le duel" />
+    <LevelMinimum Value="31" />
+    <LevelMaximum Value="99" />
+    <Lives Value="0" />
+    <RequieredItems>
+      <Item VNum="1012" Amount="0" />
+    </RequieredItems>
+    <DrawItems>
+      <Item VNum="98" Amount="1" />
+      <Item VNum="111" Amount="1" />
+      <Item VNum="124" Amount="1" />
+    </DrawItems>
+    <SpecialItems>
+      <Item VNum="224" Amount="1" />
+    </SpecialItems>
+    <GiftItems>
+      <Item VNum="2131" Amount="1" />
+      <Item VNum="1087" Amount="1" />
+    </GiftItems>
+  </Globals>
+  <InstanceEvents>
+    <CreateMap Map="1" VNum="5100" IndexX="3" IndexY="11">
+      <OnCharacterDiscoveringMap>
+        <SendMessage Value="La mission commence dès que tu entres dans la première pièce " Type="0" />
+      </OnCharacterDiscoveringMap>
+      <!-- Portals -->
+      <SpawnPortal IdOnMap="0" PositionX="14" PositionY="1" Type="0" ToMap="2" ToX="14" ToY="28" />
+    </CreateMap>
+    <CreateMap Map="2" VNum="5100" IndexX="3" IndexY="11">
+      <OnCharacterDiscoveringMap>
+        <NpcDialog Value="6111" />
+        <SendMessage Value="Nouvel objectif de mission !" Type="0" />
+      </OnCharacterDiscoveringMap>
+      <GenerateClock Value="2000" />
+      <StartClock />
+      <!-- Portals -->
+      <SpawnPortal IdOnMap="0" PositionX="14" PositionY="1" Type="0" ToMap="3" ToX="14" ToY="28" />
+      <SpawnPortal IdOnMap="2" PositionX="14" PositionY="28" Type="0" ToMap="1" ToX="14" ToY="1" />
+    </CreateMap>
+    <CreateMap Map="3" VNum="5100" IndexX="3" IndexY="10">
+      <!-- Portals -->
+      <SpawnPortal IdOnMap="0" PositionX="14" PositionY="1" Type="1" ToMap="4" ToX="14" ToY="28" />
+      <SpawnPortal IdOnMap="2" PositionX="14" PositionY="28" Type="0" ToMap="1" ToX="14" ToY="1" />
+      <!-- Buttons -->
+      <SpawnButton PositionX="11" PositionY="12" VNumDisabled="1000" VNumEnabled="1045" Id="0">
+        <OnFirstEnable>
+          <SendMessage Value="Le levier a été actionné " Type="0" />
+          <ChangePortalType IdOnMap="0" Type="2" />
+          <SendMessage Value="Une porte s'est ouverte " Type="0" />
+          <SendMessage Value="Nouvel objectif de mission !" Type="0" />
+          <RefreshMapItems />
+          <RefreshMapItems />
+        </OnFirstEnable>
+      </SpawnButton>
+      <!-- Monsters -->
+      <SummonMonster VNum="20" PositionX="20" PositionY="22" Move="false" IsHostile="true" />
+      <SummonMonster VNum="20" PositionX="20" PositionY="13" Move="false" IsHostile="true" IsBonus="true" />
+      <SummonMonster VNum="20" PositionX="20" PositionY="6" Move="false" IsHostile="true" IsBonus="true" />
+      <SummonMonster VNum="140" PositionX="16" PositionY="10" Move="true" IsHostile="true" />
+      <SummonMonster VNum="140" PositionX="15" PositionY="18" Move="true" IsHostile="true" />
+      <SummonMonster VNum="140" PositionX="15" PositionY="10" Move="true" IsHostile="true" />
+      <SummonMonster VNum="140" PositionX="12" PositionY="16" Move="true" IsHostile="true" />
+      <SummonMonster VNum="20" PositionX="9" PositionY="21" Move="false" IsHostile="true" />
+      <SummonMonster VNum="20" PositionX="9" PositionY="14" Move="false" IsHostile="true" />
+      <SummonMonster VNum="20" PositionX="9" PositionY="6" Move="false" IsHostile="true" />
+    </CreateMap>
+    <CreateMap Map="4" VNum="5100" IndexX="3" IndexY="9">
+      <!-- Portals -->
+      <SpawnPortal IdOnMap="0" PositionX="14" PositionY="1" Type="1" ToMap="5" ToX="14" ToY="28" />
+      <SpawnPortal IdOnMap="2" PositionX="14" PositionY="28" Type="0" ToMap="1" ToX="14" ToY="1" />
+      <!-- Buttons -->
+      <SpawnButton PositionX="11" PositionY="14" VNumDisabled="1000" VNumEnabled="1045" Id="0">
+        <OnFirstEnable>
+          <SendMessage Value="Le levier a été actionné " Type="0" />
+          <ChangePortalType IdOnMap="0" Type="2" />
+          <SendMessage Value="Une porte s'est ouverte " Type="0" />
+          <SendMessage Value="Nouvel objectif de mission !" Type="0" />
+          <SendMessage Value="Tu as reçu un objet : Potion de récupération géante" Type="0" />
+          <RefreshMapItems />
+          <RefreshMapItems />
+        </OnFirstEnable>
+      </SpawnButton>
+      <!-- Monsters -->
+      <SummonMonster VNum="141" PositionX="22" PositionY="17" Move="true" IsHostile="true" IsBonus="true" />
+      <SummonMonster VNum="20" PositionX="22" PositionY="14" Move="false" IsHostile="true" IsBonus="true" />
+      <SummonMonster VNum="20" PositionX="20" PositionY="10" Move="true" IsHostile="true" IsBonus="true" />
+      <SummonMonster VNum="141" PositionX="18" PositionY="14" Move="true" IsHostile="true" />
+      <SummonMonster VNum="20" PositionX="17" PositionY="6" Move="false" IsHostile="true" />
+      <SummonMonster VNum="20" PositionX="13" PositionY="5" Move="false" IsHostile="true" />
+      <SummonMonster VNum="141" PositionX="10" PositionY="12" Move="true" IsHostile="true" />
+      <SummonMonster VNum="20" PositionX="10" PositionY="7" Move="false" IsHostile="true" />
+      <SummonMonster VNum="141" PositionX="9" PositionY="16" Move="true" IsHostile="true" />
+      <SummonMonster VNum="20" PositionX="7" PositionY="10" Move="false" IsHostile="true" />
+      <SummonMonster VNum="20" PositionX="6" PositionY="13" Move="false" IsHostile="true" />
+    </CreateMap>
+    <CreateMap Map="5" VNum="5100" IndexX="3" IndexY="8">
+      <!-- Portals -->
+      <SpawnPortal IdOnMap="0" PositionX="14" PositionY="1" Type="1" ToMap="6" ToX="14" ToY="28" />
+      <SpawnPortal IdOnMap="2" PositionX="14" PositionY="28" Type="0" ToMap="1" ToX="14" ToY="1" />
+      <!-- Buttons -->
+      <SpawnButton PositionX="14" PositionY="9" VNumDisabled="1000" VNumEnabled="1045" Id="0">
+        <OnFirstEnable>
+          <SendMessage Value="Le levier a été actionné " Type="0" />
+          <ChangePortalType IdOnMap="0" Type="2" />
+          <SendMessage Value="Une porte s'est ouverte " Type="0" />
+          <SendMessage Value="Nouvel objectif de mission !" Type="0" />
+          <RefreshMapItems />
+          <RefreshMapItems />
+        </OnFirstEnable>
+      </SpawnButton>
+      <!-- Monsters -->
+      <SummonMonster VNum="20" PositionX="24" PositionY="17" Move="false" IsHostile="true" />
+      <SummonMonster VNum="20" PositionX="19" PositionY="11" Move="false" IsHostile="true" IsBonus="true" />
+      <SummonMonster VNum="20" PositionX="16" PositionY="6" Move="false" IsHostile="true" IsBonus="true" />
+      <SummonMonster VNum="20" PositionX="13" PositionY="6" Move="false" IsHostile="true" IsBonus="true" />
+      <SummonMonster VNum="20" PositionX="9" PositionY="11" Move="false" IsHostile="true" />
+      <SummonMonster VNum="20" PositionX="5" PositionY="17" Move="false" IsHostile="true" />
+   </CreateMap>
+      <CreateMap Map="6" VNum="5100" IndexX="3" IndexY="7">
+         <OnCharacterDiscoveringMap>
+            <SendMessage Value="Nouvel objectif de mission !" Type="0"/>
+            <NpcDialog Value="6112"/>
+         </OnCharacterDiscoveringMap>
+         <OnMapClean>
+            <SendMessage Value="Nouvel objectif de mission !" Type="0"/>
+            <NpcDialog Value="6113"/>
+         </OnMapClean>
+
+         <!-- Portals -->
+         <SpawnPortal IdOnMap="2" PositionX="14" PositionY="28" Type="1" ToMap="5" ToX ="14" ToY ="0"/>
+         <SpawnPortal IdOnMap="0" PositionX="14" PositionY="1" Type="4" ToMap="0" ToX ="0" ToY ="0">
+            <OnTraversal>
+               <SendMessage Value="Nouvel objectif de mission !" Type="0"/>
+               <SendMessage Value="Merci de patienter" Type="0"/>
+               <End Type="5"/>
+            </OnTraversal>
+         </SpawnPortal>
+      <!-- Monsters -->
+      <SummonMonster VNum="4" PositionX="18" PositionY="13" Move="true" IsHostile="true" />
+      <SummonMonster VNum="4" PositionX="14" PositionY="10" Move="true" IsHostile="true" />
+      <SummonMonster VNum="4" PositionX="10" PositionY="13" Move="true" IsHostile="true" />
+      <SummonMonster VNum="318" PositionX="16" PositionY="24" Move="true" IsHostile="true" IsBonus="true" />
+    </CreateMap>
+  </InstanceEvents>
+</Definition>

@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="utf - 8"?>
+<Definition>
+   <Globals>
+		<Id Value="10"/>
+		<Label Value="Time-Space Mother Cuby Raid Seal"/>
+		<Title Value="Time-Space Mother Cuby Raid Seal"/>
+		<Name Value="Time-Space Mother Cuby Raid Seal" />
+		<LevelMinimum Value="30"/>
+		<LevelMaximum Value="45"/>
+		<Lives Value="2"/>
+		<GiftItems>
+			<Item VNum="1127" Amount="1"/>
+		</GiftItems>
+		<RequieredItems>
+			<Item VNum="1012" Amount="10"/>
+		</RequieredItems>
+		<IsIndividual Value="true"/>
+		<Gold Value="12090"/>
+		<Reputation Value="900"/>
+		<StartX Value="13"/>
+		<StartY Value="14"/>
+		<IsNpcProtected Value="true"/>
+	</Globals>
+   <InstanceEvents>
+		<CreateMap Map="1" VNum="5203" IndexX="5" IndexY="9">
+		<OnCharacterDiscoveringMap>
+			<SpawnPortal IdOnMap="0" PositionX="12" PositionY="1" Type="0" ToMap="2" ToX="23" ToY="12"/>
+			<GenerateClock Value="8500" />
+			<StartClock>
+				<OnTimeout>
+					<End Type="1"/>
+				</OnTimeout>
+			</StartClock>
+		</OnCharacterDiscoveringMap>
+		</CreateMap>
+		<CreateMap Map="2" VNum="5204" IndexX="5" IndexY="8">
+		<OnCharacterDiscoveringMap>
+			<SpawnPortal IdOnMap="2" PositionX="23" PositionY="12" Type="0" ToMap="1" ToX="12" ToY="1"/>
+			<SpawnPortal IdOnMap="0" PositionX="1" PositionY="12" Type="0" ToMap="3" ToX="12" ToY="23"/>
+		</OnCharacterDiscoveringMap>
+		</CreateMap>
+		<CreateMap Map="3" VNum="5203" IndexX="5" IndexY="7">
+			<OnCharacterDiscoveringMap>
+				<SendMessage Value="Monsters has been spawned!" Type="0"/>
+				<!--Monster-->
+				<SummonMonster VNum="59" PositionX="10" PositionY="11" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="141" PositionX="8" PositionY="12" IsHostile="true" Move="true">
+					<OnDeath>
+						<SummonMonster VNum="141" PositionX="13" PositionY="12" IsHostile="true" Move="true"/>
+						<SummonMonster VNum="141" PositionX="13" PositionY="17" IsHostile="true" Move="true"/>
+					</OnDeath>
+				</SummonMonster>
+				<SummonMonster VNum="141" PositionX="13" PositionY="11" IsHostile="true" Move="true"/>
+				
+				<!--Portal-->
+				<SpawnPortal IdOnMap="2" PositionX="12" PositionY="23" Type="1" ToMap="2" ToX="1" ToY="12"/>
+				<SpawnPortal IdOnMap="1" PositionX="23" PositionY="12" Type="1" ToMap="4" ToX="1" ToY="12"/>
+			</OnCharacterDiscoveringMap>
+			
+			<OnMoveOnMap>
+				<OnMapClean>
+					<SendMessage Value="Doors has been opened" Type="0"/>
+					<ChangePortalType IdOnMap="2" Type="2"/>
+					<ChangePortalType IdOnMap="1" Type="2"/>
+				</OnMapClean>
+			</OnMoveOnMap>
+			
+		</CreateMap>
+		<CreateMap Map="4" VNum="5203" IndexX="6" IndexY="7">
+		
+			<OnCharacterDiscoveringMap>
+				<SendMessage Value="Monsters has been spawned!" Type="0"/>
+				<!--Monster-->
+				<SummonMonster VNum="59" PositionX="12" PositionY="13" IsHostile="true" Move="true">
+					<OnDeath>
+						<SummonMonster VNum="141" PositionX="15" PositionY="10" IsHostile="true" Move="true"/>
+						<SummonMonster VNum="141" PositionX="11" PositionY="9" IsHostile="true" Move="true"/>
+					</OnDeath>
+				</SummonMonster>
+				<SummonMonster VNum="16" PositionX="12" PositionY="11" IsHostile="true" Move="true">
+					<OnDeath>
+						<SummonMonster VNum="141" PositionX="9" PositionY="11" IsHostile="true" Move="true"/>
+						<SummonMonster VNum="141" PositionX="14" PositionY="10" IsHostile="true" Move="true"/>
+					</OnDeath>
+				</SummonMonster>
+				
+				<!--Portal-->
+				<SpawnPortal IdOnMap="3" PositionX="1" PositionY="12" Type="1" ToMap="3" ToX="23" ToY="12"/>
+				<SpawnPortal IdOnMap="0" PositionX="12" PositionY="1" Type="1" ToMap="5" ToX="12" ToY="23"/>
+			</OnCharacterDiscoveringMap>
+			
+			<OnMoveOnMap>
+				<OnMapClean>
+					<SendMessage Value="Doors has been opened" Type="0"/>
+					<ChangePortalType IdOnMap="3" Type="2"/>
+					<ChangePortalType IdOnMap="0" Type="2"/>
+				</OnMapClean>
+			</OnMoveOnMap>
+			
+		</CreateMap>
+		<CreateMap Map="5" VNum="5203" IndexX="6" IndexY="6">
+		
+			<OnCharacterDiscoveringMap>
+				<SendMessage Value="Monsters has been spawned!" Type="0"/>
+				<!--Monster-->
+				<SummonMonster VNum="59" PositionX="12" PositionY="13" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="141" PositionX="12" PositionY="11" IsHostile="true" Move="true">
+					<OnDeath>
+						<SummonMonster VNum="141" PositionX="9" PositionY="11" IsHostile="true" Move="true"/>
+						<SummonMonster VNum="141" PositionX="13" PositionY="13" IsHostile="true" Move="true"/>
+						<SummonMonster VNum="141" PositionX="10" PositionY="14" IsHostile="true" Move="true"/>
+					</OnDeath>
+				</SummonMonster>
+				
+				<!--Portal-->
+				<SpawnPortal IdOnMap="2" PositionX="12" PositionY="23" Type="1" ToMap="4" ToX="12" ToY="1"/>
+				<SpawnPortal IdOnMap="1" PositionX="23" PositionY="12" Type="1" ToMap="6" ToX="1" ToY="12"/>
+			</OnCharacterDiscoveringMap>
+			
+			<OnMoveOnMap>
+				<OnMapClean>
+					<SendMessage Value="Doors has been opened" Type="0"/>
+					<ChangePortalType IdOnMap="2" Type="2"/>
+					<ChangePortalType IdOnMap="1" Type="2"/>
+				</OnMapClean>
+			</OnMoveOnMap>
+		</CreateMap>
+		<CreateMap Map="6" VNum="5203" IndexX="7" IndexY="6">
+		
+			<OnCharacterDiscoveringMap>
+				<SummonNpc VNum="336" PositionX="12" PositionY="12" IsHostile="false" Move="false"/>
+				
+				<!--Portal-->
+				<SpawnPortal IdOnMap="3" PositionX="1" PositionY="12" Type="0" ToMap="5" ToX="23" ToY="12"/>
+				<SpawnPortal IdOnMap="0" PositionX="12" PositionY="1" Type="0" ToMap="7" ToX="12" ToY="23"/>
+			</OnCharacterDiscoveringMap>
+			
+		</CreateMap>
+		<CreateMap Map="7" VNum="5203" IndexX="7" IndexY="5">
+		
+			<OnCharacterDiscoveringMap>
+				<SendMessage Value="Monsters has been spawned!" Type="0"/>
+				<!--Monster-->
+				<SummonMonster VNum="141" PositionX="9" PositionY="9" IsHostile="true" Move="true">
+					<OnDeath>
+						<SummonMonster VNum="141" PositionX="9" PositionY="11" IsHostile="true" Move="true"/>
+						<SummonMonster VNum="16" PositionX="13" PositionY="13" IsHostile="true" Move="true"/>
+					</OnDeath>
+				</SummonMonster>
+				<SummonMonster VNum="141" PositionX="12" PositionY="10" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="141" PositionX="12" PositionY="13" IsHostile="true" Move="true">
+					<OnDeath>
+						<SummonMonster VNum="16" PositionX="9" PositionY="11" IsHostile="true" Move="true"/>
+						<SummonMonster VNum="16" PositionX="13" PositionY="13" IsHostile="true" Move="true"/>
+					</OnDeath>
+				</SummonMonster>
+
+				<!--Portal-->
+				<SpawnPortal IdOnMap="2" PositionX="12" PositionY="23" Type="1" ToMap="6" ToX="12" ToY="1"/>
+				<SpawnPortal IdOnMap="1" PositionX="23" PositionY="12" Type="1" ToMap="8" ToX="1" ToY="12"/>
+			</OnCharacterDiscoveringMap>
+			
+			<OnMoveOnMap>
+				<OnMapClean>
+					<SendMessage Value="Doors has been opened" Type="0"/>
+					<ChangePortalType IdOnMap="2" Type="2"/>
+					<ChangePortalType IdOnMap="1" Type="2"/>
+				</OnMapClean>
+			</OnMoveOnMap>
+		</CreateMap>
+		
+		<CreateMap Map="8" VNum="5203" IndexX="8" IndexY="5">
+			
+			<OnCharacterDiscoveringMap>
+			<GenerateMapClock Value="1150"/>
+				<SendMessage Value="Protect Warlock, untill time not end." Type="0"/>
+				<StartMapClock>
+					<OnTimeout>
+						<ChangePortalType IdOnMap="0" Type="2"/>
+						<ChangePortalType IdOnMap="3" Type="2"/>
+						<StopMapWaves/>
+						<SendPacket Value="evnt 3 1 1150 1150"/>
+						<ClearMapMonsters/>
+					</OnTimeout>
+				</StartMapClock>
+				<SummonNpc VNum="341" PositionX="9" PositionY="12" IsHostile="true" IsProtected="true" Move="true" >
+					<OnDeath>
+						<End Type="2"/>
+					</OnDeath>
+				</SummonNpc>
+				<SummonMonster VNum="65" PositionX="11" PositionY="11" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="141" PositionX="13" PositionY="13" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="141" PositionX="13" PositionY="12" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="65" PositionX="11" PositionY="11" HasDelay="32" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="141" PositionX="13" PositionY="13" HasDelay="32" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="141" PositionX="13" PositionY="12" HasDelay="32" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="65" PositionX="11" PositionY="11" HasDelay="62" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="141" PositionX="13" PositionY="13" HasDelay="62" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="141" PositionX="13" PositionY="12" HasDelay="62" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="137" PositionX="13" PositionY="14" HasDelay="62" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="65" PositionX="11" PositionY="11" HasDelay="92" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="141" PositionX="13" PositionY="13" HasDelay="92" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="141" PositionX="13" PositionY="12" HasDelay="92" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="137" PositionX="13" PositionY="14" HasDelay="92" IsHostile="true" Move="true"/>
+				
+				<SpawnPortal IdOnMap="3" PositionX="1" PositionY="12" Type="1" ToMap="7" ToX="23" ToY="12"/>
+				<SpawnPortal IdOnMap="0" PositionX="12" PositionY="1" Type="1" ToMap="9" ToX="12" ToY="23"/>
+			</OnCharacterDiscoveringMap>
+		</CreateMap>
+		<CreateMap Map="9" VNum="5203" IndexX="8" IndexY="4">
+		
+			<OnCharacterDiscoveringMap>
+				<SummonNpc VNum="341" PositionX="11" PositionY="11" IsHostile="true" IsProtected="true" Move="true" />
+				
+				<!--Portal-->
+				<SpawnPortal IdOnMap="1" PositionX="23" PositionY="12" Type="0" ToMap="10" ToX="1" ToY="12"/>
+				<SpawnPortal IdOnMap="2" PositionX="12" PositionY="23" Type="0" ToMap="8" ToX="12" ToY="1"/>
+			</OnCharacterDiscoveringMap>
+		</CreateMap>
+		<CreateMap Map="10" VNum="5203" IndexX="9" IndexY="4">
+			
+			<OnCharacterDiscoveringMap>
+				<SendMessage Value="Monsters has been spawned!" Type="0"/>
+				<!--Monster-->
+				<SummonMonster VNum="16" PositionX="9" PositionY="9" IsHostile="true" Move="true">
+					<OnDeath>
+						<SummonMonster VNum="59" PositionX="9" PositionY="11" IsHostile="true" Move="true"/>
+					</OnDeath>
+				</SummonMonster>
+				<SummonMonster VNum="59" PositionX="12" PositionY="10" IsHostile="true" Move="true"/>
+				
+
+				<!--Portal-->
+				<SpawnPortal IdOnMap="3" PositionX="1" PositionY="12" Type="1" ToMap="9" ToX="23" ToY="12"/>
+				<SpawnPortal IdOnMap="0" PositionX="12" PositionY="1" Type="1" ToMap="11" ToX="23" ToY="12"/>
+			</OnCharacterDiscoveringMap>
+			
+			<OnMoveOnMap>
+				<OnMapClean>
+					<SendMessage Value="Doors has been opened" Type="0"/>
+					<ChangePortalType IdOnMap="3" Type="2"/>
+					<ChangePortalType IdOnMap="0" Type="2"/>
+				</OnMapClean>
+			</OnMoveOnMap>
+		</CreateMap>
+		<CreateMap Map="11" VNum="5204" IndexX="9" IndexY="3">
+			<OnCharacterDiscoveringMap>
+				<!--Monster-->
+				<SummonMonster VNum="65" PositionX="13" PositionY="9" IsHostile="true" Move="true">
+					<OnDeath>
+						<SummonMonster VNum="59" PositionX="11" PositionY="13" IsHostile="true" Move="true"/>
+					</OnDeath>
+				</SummonMonster>
+				<SummonMonster VNum="65" PositionX="7" PositionY="12" IsHostile="true" Move="true">
+					<OnDeath>
+						<SummonMonster VNum="16" PositionX="16" PositionY="14" IsHostile="true" Move="true"/>
+					</OnDeath>
+				</SummonMonster>
+				
+				<!--Portal-->
+				<SpawnPortal IdOnMap="2" PositionX="23" PositionY="12" Type="1" ToMap="10" ToX="12" ToY="1"/>
+				<SpawnPortal IdOnMap="0" PositionX="1" PositionY="12" Type="1" ToMap="12" ToX="12" ToY="23"/>
+			</OnCharacterDiscoveringMap>
+			<OnMoveOnMap>
+				<OnMapClean>
+					<SendMessage Value="Doors has been opened" Type="0"/>
+					<ChangePortalType IdOnMap="2" Type="2"/>
+					<ChangePortalType IdOnMap="0" Type="2"/>
+				</OnMapClean>
+			</OnMoveOnMap>
+		</CreateMap>
+		<CreateMap Map="12" VNum="5207" IndexX="9" IndexY="2">
+		
+			<OnCharacterDiscoveringMap>
+				<!--Monster-->
+				<SummonMonster VNum="65" PositionX="12" PositionY="9" IsHostile="true" Move="true">
+					<OnDeath>
+						<SummonMonster VNum="142" PositionX="9" PositionY="12" IsHostile="true" Move="true"/>
+					</OnDeath>
+				</SummonMonster>
+				<SummonMonster VNum="65" PositionX="8" PositionY="16" IsHostile="true" Move="true">
+					<OnDeath>
+						<SummonMonster VNum="16" PositionX="9" PositionY="12" IsHostile="true" Move="true"/>
+						<SummonMonster VNum="16" PositionX="11" PositionY="12" IsHostile="true" Move="true"/>
+					</OnDeath>
+				</SummonMonster>
+				
+				<!--Portal-->
+				<SpawnPortal IdOnMap="2" PositionX="12" PositionY="23" Type="1" ToMap="11" ToX="12" ToY="1"/>
+				<SpawnPortal IdOnMap="3" PositionX="1" PositionY="12" Type="1" ToMap="13" ToX="23" ToY="12"/>
+			</OnCharacterDiscoveringMap>
+			<OnMoveOnMap>
+				<OnMapClean>
+					<SendMessage Value="Doors has been opened" Type="0"/>
+					<ChangePortalType IdOnMap="3" Type="2"/>
+					<ChangePortalType IdOnMap="2" Type="2"/>
+				</OnMapClean>
+			</OnMoveOnMap>
+		</CreateMap>
+		<CreateMap Map="13" VNum="5208" IndexX="8" IndexY="2">
+		
+			<OnCharacterDiscoveringMap>
+				<!--Monster-->
+				<SummonMonster VNum="65" PositionX="18" PositionY="14" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="65" PositionX="14" PositionY="11" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="65" PositionX="13" PositionY="6" IsHostile="true" Move="true"/>
+				
+				<!--Portal-->
+				<SpawnPortal IdOnMap="0" PositionX="12" PositionY="1" Type="1" ToMap="14" ToX="12" ToY="23"/>
+				<SpawnPortal IdOnMap="1" PositionX="23" PositionY="12" Type="1" ToMap="12" ToX="1" ToY="12"/>
+			</OnCharacterDiscoveringMap>
+			<OnMoveOnMap>
+				<OnMapClean>
+					<SendMessage Value="Doors has been opened" Type="0"/>
+					<ChangePortalType IdOnMap="0" Type="2"/>
+					<ChangePortalType IdOnMap="1" Type="2"/>
+				</OnMapClean>
+			</OnMoveOnMap>
+		</CreateMap>
+		<CreateMap Map="14" VNum="5207" IndexX="8" IndexY="1">
+		
+			<OnCharacterDiscoveringMap>
+				<!--Portal-->
+				<SpawnPortal IdOnMap="2" PositionX="12" PositionY="23" Type="0" ToMap="13" ToX="12" ToY="1"/>
+				<SpawnPortal IdOnMap="3" PositionX="1" PositionY="12" Type="0" ToMap="15" ToX="23" ToY="12"/>
+			</OnCharacterDiscoveringMap>
+		</CreateMap>
+		<CreateMap Map="15" VNum="5204" IndexX="7" IndexY="1">
+		
+			<OnCharacterDiscoveringMap>
+				<!--Monster-->
+				<SummonMonster VNum="282" PositionX="13" PositionY="12" IsHostile="true" Move="false"/>
+				<SummonMonster VNum="83" PositionX="10" PositionY="14" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="83" PositionX="14" PositionY="14" IsHostile="true" Move="true"/>
+				
+				<SendMessage Value="RUN AWAY !!!!!" Type="0"/>
+				<!--Portal-->
+				<SpawnPortal IdOnMap="1" PositionX="23" PositionY="12" Type="0" ToMap="14" ToX="1" ToY="12"/>
+				<SpawnPortal IdOnMap="3" PositionX="1" PositionY="12" Type="0" ToMap="16" ToX="23" ToY="12"/>
+			</OnCharacterDiscoveringMap>
+		</CreateMap>
+		<CreateMap Map="16" VNum="5203" IndexX="6" IndexY="1">
+		
+			<OnCharacterDiscoveringMap>
+				<!--Portal-->
+				<SpawnPortal IdOnMap="1" PositionX="23" PositionY="12" Type="0" ToMap="15" ToX="1" ToY="12"/>
+				<SpawnPortal IdOnMap="2" PositionX="12" PositionY="23" Type="0" ToMap="17" ToX="12" ToY="1"/>
+			</OnCharacterDiscoveringMap>
+		</CreateMap>
+		<CreateMap Map="17" VNum="5203" IndexX="6" IndexY="2">
+		
+			<OnCharacterDiscoveringMap>
+				<SendMessage Value="Monsters has been spawned!" Type="0"/>
+				<!--Monster-->
+				<SummonMonster VNum="59" PositionX="12" PositionY="8" IsHostile="true" Move="true">
+					<OnDeath>
+						<SummonMonster VNum="67" PositionX="12" PositionY="13" IsHostile="true" Move="true"/>
+					</OnDeath>
+				</SummonMonster>
+				<SummonMonster VNum="59" PositionX="13" PositionY="11" IsHostile="true" Move="true">
+					<OnDeath>
+						<SummonMonster VNum="16" PositionX="10" PositionY="10" IsHostile="true" Move="true"/>
+						<SummonMonster VNum="16" PositionX="15" PositionY="11" IsHostile="true" Move="true"/>
+					</OnDeath>
+				</SummonMonster>
+				
+				<!--Portal-->
+				<SpawnPortal IdOnMap="0" PositionX="12" PositionY="1" Type="1" ToMap="16" ToX="12" ToY="1"/>
+				<SpawnPortal IdOnMap="3" PositionX="1" PositionY="12" Type="1" ToMap="18" ToX="23" ToY="12"/>
+			</OnCharacterDiscoveringMap>
+			
+			<OnMoveOnMap>
+				<OnMapClean>
+					<SendMessage Value="Doors has been opened" Type="0"/>
+					<ChangePortalType IdOnMap="3" Type="2"/>
+					<ChangePortalType IdOnMap="0" Type="2"/>
+				</OnMapClean>
+			</OnMoveOnMap>
+		</CreateMap>
+		<CreateMap Map="18" VNum="5203" IndexX="5" IndexY="2">
+			<OnCharacterDiscoveringMap>
+				<!--Portal-->
+				<SpawnPortal IdOnMap="1" PositionX="23" PositionY="12" Type="0" ToMap="17" ToX="1" ToY="12"/>
+				<SpawnPortal IdOnMap="2" PositionX="12" PositionY="23" Type="0" ToMap="19" ToX="12" ToY="1"/>
+				<SpawnPortal IdOnMap="3" PositionX="1" PositionY="12" Type="1" ToMap="20" ToX="23" ToY="12"/>
+			</OnCharacterDiscoveringMap>
+		</CreateMap>
+		<CreateMap Map="19" VNum="5206" IndexX="5" IndexY="3">
+		
+			<OnCharacterDiscoveringMap>
+				<SendMessage Value="Monsters has been spawned!" Type="0"/>
+				<!--Monster-->
+				<SummonMonster VNum="65" PositionX="14" PositionY="5" IsHostile="true" Move="true">
+					<OnDeath>
+						<SummonMonster VNum="67" PositionX="16" PositionY="14" IsHostile="true" Move="true"/>
+					</OnDeath>
+				</SummonMonster>
+				<SummonMonster VNum="65" PositionX="11" PositionY="10" IsHostile="true" Move="true">
+					<OnDeath>
+						<SummonMonster VNum="59" PositionX="11" PositionY="12" IsHostile="true" Move="true"/>
+						<SummonMonster VNum="59" PositionX="11" PositionY="14" IsHostile="true" Move="true"/>
+					</OnDeath>
+				</SummonMonster>
+				
+				<!--Portal-->
+				<SpawnPortal IdOnMap="0" PositionX="12" PositionY="1" Type="1" ToMap="18" ToX="12" ToY="23"/>
+			</OnCharacterDiscoveringMap>
+			
+			<OnMoveOnMap>
+				<OnMapClean>
+					<SendMessage Value="Doors has been opened" Type="0"/>
+					<ChangePortalType Map="18" IdOnMap="3" Type="2"/>
+					<ChangePortalType Map="19"  IdOnMap="0" Type="2"/>
+				</OnMapClean>
+			</OnMoveOnMap>
+		</CreateMap>
+		<CreateMap Map="20" VNum="5208" IndexX="4" IndexY="2">
+		
+			<OnCharacterDiscoveringMap>
+				<SendMessage Value="Monsters has been spawned!" Type="0"/>
+				<!--Monster-->
+				<SummonMonster VNum="59" PositionX="19" PositionY="13" IsHostile="true" Move="true">
+					<OnDeath>
+						<SummonMonster VNum="67" PositionX="15" PositionY="9" IsHostile="true" Move="true"/>
+					</OnDeath>
+				</SummonMonster>
+				<SummonMonster VNum="59" PositionX="14" PositionY="11" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="59" PositionX="15" PositionY="8" IsHostile="true" Move="true">
+					<OnDeath>
+						<SummonMonster VNum="17" PositionX="16" PositionY="11" IsHostile="true" Move="true"/>
+					</OnDeath>
+				</SummonMonster>
+				
+				<!--Portal-->
+				<SpawnPortal IdOnMap="0" PositionX="12" PositionY="1" Type="1" ToMap="21" ToX="12" ToY="23"/>
+				<SpawnPortal IdOnMap="1" PositionX="23" PositionY="12" Type="1" ToMap="18" ToX="1" ToY="12"/>
+			</OnCharacterDiscoveringMap>
+			
+			<OnMoveOnMap>
+				<OnMapClean>
+					<SendMessage Value="Doors has been opened" Type="0"/>
+					<ChangePortalType IdOnMap="1" Type="2"/>
+					<ChangePortalType IdOnMap="0" Type="2"/>
+				</OnMapClean>
+			</OnMoveOnMap>
+		</CreateMap>
+		<CreateMap Map="21" VNum="5207" IndexX="4" IndexY="1">
+		
+			<OnCharacterDiscoveringMap>
+				<SendMessage Value="Monsters has been spawned!" Type="0"/>
+				<!--Monster-->
+				<SummonMonster VNum="17" PositionX="11" PositionY="18" IsHostile="true" Move="true">
+					<OnDeath>
+						<SummonMonster VNum="59" PositionX="11" PositionY="18" IsHostile="true" Move="true"/>
+						<SummonMonster VNum="59" PositionX="7" PositionY="15" IsHostile="true" Move="true"/>
+						<SummonMonster VNum="59" PositionX="8" PositionY="12" IsHostile="true" Move="true"/>
+					</OnDeath>
+				</SummonMonster>
+				<SummonMonster VNum="17" PositionX="6" PositionY="13" IsHostile="true" Move="true">
+					<OnDeath>
+						<SummonMonster VNum="67" PositionX="9" PositionY="15" IsHostile="true" Move="true"/>
+					</OnDeath>
+				</SummonMonster>
+				
+				<!--Portal-->
+				<SpawnPortal IdOnMap="3" PositionX="1" PositionY="12" Type="1" ToMap="22" ToX="23" ToY="12"/>
+				<SpawnPortal IdOnMap="2" PositionX="12" PositionY="23" Type="1" ToMap="20" ToX="12" ToY="1"/>
+			</OnCharacterDiscoveringMap>
+			
+			<OnMoveOnMap>
+				<OnMapClean>
+					<SendMessage Value="Doors has been opened" Type="0"/>
+					<ChangePortalType IdOnMap="2" Type="2"/>
+					<ChangePortalType IdOnMap="3" Type="2"/>
+				</OnMapClean>
+			</OnMoveOnMap>
+		</CreateMap>
+		<CreateMap Map="22" VNum="5205" IndexX="3" IndexY="1">
+		
+			<OnCharacterDiscoveringMap>
+				<SendMessage Value="RUN AWAY !!!" Type="0"/>
+				<!--Monster-->
+				<SummonMonster VNum="282" PositionX="12" PositionY="10" IsHostile="true" Move="false"/>
+				<SummonMonster VNum="83" PositionX="13" PositionY="13" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="83" PositionX="10" PositionY="13" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="83" PositionX="9" PositionY="10" IsHostile="true" Move="true"/>
+				
+				<!--Portal-->
+				<SpawnPortal IdOnMap="1" PositionX="23" PositionY="12" Type="0" ToMap="21" ToX="1" ToY="12"/>
+				<SpawnPortal IdOnMap="3" PositionX="1" PositionY="12" Type="0" ToMap="23" ToX="23" ToY="12"/>
+			</OnCharacterDiscoveringMap>
+		</CreateMap>
+		<CreateMap Map="23" VNum="5203" IndexX="2" IndexY="1">
+		
+			<OnCharacterDiscoveringMap>
+				<!--Portal-->
+				<SpawnPortal IdOnMap="1" PositionX="23" PositionY="12" Type="0" ToMap="21" ToX="1" ToY="12"/>
+				<SpawnPortal IdOnMap="2" PositionX="12" PositionY="23" Type="0" ToMap="24" ToX="12" ToY="1"/>
+			</OnCharacterDiscoveringMap>
+		</CreateMap>
+		<CreateMap Map="24" VNum="5203" IndexX="2" IndexY="2">
+		
+			<OnCharacterDiscoveringMap>
+				<SendMessage Value="Monsters has been spawned!" Type="0"/>
+				<!--Monster-->
+				<SummonMonster VNum="141" PositionX="10" PositionY="9" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="141" PositionX="10" PositionY="13" IsHostile="true" Move="true">
+					<OnDeath>
+						<SummonMonster VNum="137" PositionX="15" PositionY="14" IsHostile="true" Move="true"/>
+						<SummonMonster VNum="137" PositionX="13" PositionY="12" IsHostile="true" Move="true"/>
+						<SummonMonster VNum="137" PositionX="10" PositionY="13" IsHostile="true" Move="true"/>
+					</OnDeath>
+				</SummonMonster>
+				<SummonMonster VNum="141" PositionX="13" PositionY="11" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="141" PositionX="12" PositionY="16" IsHostile="true" Move="true"/>
+				
+				<!--Portal-->
+				<SpawnPortal IdOnMap="0" PositionX="12" PositionY="1" Type="1" ToMap="23" ToX="12" ToY="23"/>
+				<SpawnPortal IdOnMap="3" PositionX="1" PositionY="12" Type="1" ToMap="25" ToX="23" ToY="12"/>
+			</OnCharacterDiscoveringMap>
+			
+			<OnMoveOnMap>
+				<OnMapClean>
+					<SendMessage Value="Doors has been opened" Type="0"/>
+					<ChangePortalType IdOnMap="0" Type="2"/>
+					<ChangePortalType IdOnMap="3" Type="2"/>
+				</OnMapClean>
+			</OnMoveOnMap>
+		</CreateMap>
+		<CreateMap Map="25" VNum="5203" IndexX="1" IndexY="2">
+		
+			<OnCharacterDiscoveringMap>
+				<SendMessage Value="Monsters has been spawned!" Type="0"/>
+				<!--Monster-->
+				<SummonMonster VNum="59" PositionX="10" PositionY="9" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="59" PositionX="10" PositionY="13" IsHostile="true" Move="true">
+					<OnDeath>
+						<SummonMonster VNum="137" PositionX="15" PositionY="14" IsHostile="true" Move="true"/>
+						<SummonMonster VNum="137" PositionX="13" PositionY="12" IsHostile="true" Move="true">
+							<OnDeath>
+								<SummonMonster VNum="141" PositionX="13" PositionY="12" IsHostile="true" Move="true"/>
+							</OnDeath>
+						</SummonMonster>
+					</OnDeath>
+				</SummonMonster>
+				<SummonMonster VNum="59" PositionX="13" PositionY="11" IsHostile="true" Move="true"/>
+				
+				<!--Portal-->
+				<SpawnPortal IdOnMap="1" PositionX="23" PositionY="12" Type="1" ToMap="23" ToX="1" ToY="12"/>
+				<SpawnPortal IdOnMap="2" PositionX="12" PositionY="23" Type="1" ToMap="26" ToX="12" ToY="1"/>
+			</OnCharacterDiscoveringMap>
+			
+			<OnMoveOnMap>
+				<OnMapClean>
+					<SendMessage Value="Doors has been opened" Type="0"/>
+					<ChangePortalType IdOnMap="2" Type="2"/>
+					<ChangePortalType IdOnMap="1" Type="2"/>
+				</OnMapClean>
+			</OnMoveOnMap>
+		</CreateMap>
+		<CreateMap Map="26" VNum="5206" IndexX="1" IndexY="3">
+			
+			<OnCharacterDiscoveringMap>
+				<SendMessage Value="Monsters has been spawned!" Type="0"/>
+				<!--Monster-->
+				<SummonMonster VNum="59" PositionX="13" PositionY="7" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="59" PositionX="10" PositionY="9" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="59" PositionX="12" PositionY="11" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="59" PositionX="14" PositionY="13" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="59" PositionX="12" PositionY="14" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="59" PositionX="11" PositionY="18" IsHostile="true" Move="true">
+					<OnDeath>
+						<SummonMonster VNum="82" IsHostile="true" Move="true"/>
+					</OnDeath>
+				</SummonMonster>
+				<SummonMonster VNum="59" PositionX="14" PositionY="21" IsHostile="true" Move="true">
+					<OnDeath>
+						<SummonMonster VNum="139" IsHostile="true" Move="true"/>
+					</OnDeath>
+				</SummonMonster>
+				<SummonMonster VNum="59" PositionX="16" PositionY="16" IsHostile="true" Move="true">
+					<OnDeath>
+						<SummonMonster VNum="139" IsHostile="true" Move="true"/>
+					</OnDeath>
+				</SummonMonster>
+				
+				<!--Portal-->
+				<SpawnPortal IdOnMap="0" PositionX="12" PositionY="1" Type="1" ToMap="25" ToX="12" ToY="23"/>
+				<SpawnPortal IdOnMap="2" PositionX="12" PositionY="23" Type="1" ToMap="27" ToX="12" ToY="1"/>
+			</OnCharacterDiscoveringMap>
+			
+			<OnMoveOnMap>
+				<OnMapClean>
+					<SendMessage Value="Doors has been opened" Type="0"/>
+					<ChangePortalType IdOnMap="2" Type="2"/>
+					<ChangePortalType IdOnMap="0" Type="2"/>
+				</OnMapClean>
+			</OnMoveOnMap>
+		</CreateMap>
+		<CreateMap Map="27" VNum="5208" IndexX="1" IndexY="4">
+		
+			<OnCharacterDiscoveringMap>
+				<!--Monster-->
+				<SummonMonster VNum="65" PositionX="18" PositionY="14" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="65" PositionX="14" PositionY="11" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="65" PositionX="13" PositionY="6" IsHostile="true" Move="true">
+					<OnDeath>
+						<SummonMonster VNum="59" IsHostile="true" Move="true"/>
+						<SummonMonster VNum="59" IsHostile="true" Move="true"/>
+					</OnDeath>
+				</SummonMonster>
+				
+				<!--Portal-->
+				<SpawnPortal IdOnMap="0" PositionX="12" PositionY="1" Type="1" ToMap="26" ToX="12" ToY="23"/>
+				<SpawnPortal IdOnMap="1" PositionX="23" PositionY="12" Type="1" ToMap="28" ToX="12" ToY="21"/>
+			</OnCharacterDiscoveringMap>
+			<OnMoveOnMap>
+				<OnMapClean>
+					<SendMessage Value="Doors has been opened" Type="0"/>
+					<ChangePortalType IdOnMap="0" Type="2"/>
+					<ChangePortalType IdOnMap="1" Type="2"/>
+				</OnMapClean>
+			</OnMoveOnMap>
+		</CreateMap>
+		<CreateMap Map="28" VNum="5207" IndexX="2" IndexY="4">
+		
+			<OnCharacterDiscoveringMap>
+				<SendMessage Value="RUN AWAY !!!" Type="0"/>
+				<!--Monster-->
+				<SummonMonster VNum="282" PositionX="7" PositionY="12" IsHostile="true" Move="false"/>
+				<SummonMonster VNum="83" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="83" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="83" IsHostile="true" Move="true"/>
+				
+				<!--Portal-->
+				<SpawnPortal IdOnMap="2" PositionX="12" PositionY="23" Type="0" ToMap="29" ToX="12" ToY="1"/>
+				<SpawnPortal IdOnMap="3" PositionX="1" PositionY="12" Type="0" ToMap="27" ToX="23" ToY="12"/>
+			</OnCharacterDiscoveringMap>
+		</CreateMap>
+		<CreateMap Map="29" VNum="5208" IndexX="2" IndexY="5">
+		
+			<OnCharacterDiscoveringMap>
+				<!--Monster-->
+				<SummonMonster VNum="141" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="141" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="141" IsHostile="true" Move="true">
+					<OnDeath>
+						<SummonMonster VNum="67" IsHostile="true" Move="true"/>
+						<SummonMonster VNum="67" IsHostile="true" Move="true"/>
+					</OnDeath>
+				</SummonMonster>
+				
+				<!--Portal-->
+				<SpawnPortal IdOnMap="0" PositionX="12" PositionY="1" Type="1" ToMap="28" ToX="12" ToY="23"/>
+				<SpawnPortal IdOnMap="1" PositionX="23" PositionY="12" Type="1" ToMap="30" ToX="1" ToY="12"/>
+			</OnCharacterDiscoveringMap>
+			<OnMoveOnMap>
+				<OnMapClean>
+					<SendMessage Value="Doors has been opened" Type="0"/>
+					<ChangePortalType IdOnMap="0" Type="2"/>
+					<ChangePortalType IdOnMap="1" Type="2"/>
+				</OnMapClean>
+			</OnMoveOnMap>
+		</CreateMap>
+		<CreateMap Map="30" VNum="5207" IndexX="3" IndexY="5">
+		
+			<OnCharacterDiscoveringMap>
+				<SendMessage Value="Monsters has been spawned!" Type="0"/>
+				<!--Monster-->
+				<SummonMonster VNum="141" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="141" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="141" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="141" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="141" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="141" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="141" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="141" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="141" IsHostile="true" Move="true">
+					<OnDeath>
+						<SummonMonster VNum="141" IsHostile="true" Move="true"/>
+						<SummonMonster VNum="141" IsHostile="true" Move="true"/>
+					</OnDeath>
+				</SummonMonster>
+				
+				<!--Portal-->
+				<SpawnPortal IdOnMap="3" PositionX="1" PositionY="12" Type="1" ToMap="29" ToX="23" ToY="12"/>
+				<SpawnPortal IdOnMap="2" PositionX="12" PositionY="23" Type="1" ToMap="31" ToX="12" ToY="1"/>
+			</OnCharacterDiscoveringMap>
+			
+			<OnMoveOnMap>
+				<OnMapClean>
+					<SendMessage Value="Doors has been opened" Type="0"/>
+					<ChangePortalType IdOnMap="3" Type="2"/>
+					<ChangePortalType IdOnMap="2" Type="2"/>
+				</OnMapClean>
+			</OnMoveOnMap>
+		</CreateMap>
+		<CreateMap Map="31" VNum="5208" IndexX="3" IndexY="6">
+			
+			<OnCharacterDiscoveringMap>
+				<!--Monster-->
+				<SummonMonster VNum="65" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="65" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="65" IsHostile="true" Move="true">
+					<OnDeath>
+						<SummonMonster VNum="59" IsHostile="true" Move="true"/>
+						<SummonMonster VNum="59" IsHostile="true" Move="true">
+							<OnDeath>
+								<SummonMonster VNum="137" IsHostile="true" Move="true"/>
+								<SummonMonster VNum="137" IsHostile="true" Move="true"/>
+							</OnDeath>
+						</SummonMonster>
+					</OnDeath>
+				</SummonMonster>
+				
+				<!--Portal-->
+				<SpawnPortal IdOnMap="0" PositionX="12" PositionY="1" Type="1" ToMap="30" ToX="12" ToY="23"/>
+				<SpawnPortal IdOnMap="1" PositionX="23" PositionY="12" Type="1" ToMap="32" ToX="1" ToY="12"/>
+			</OnCharacterDiscoveringMap>
+			<OnMoveOnMap>
+				<OnMapClean>
+					<SendMessage Value="Doors has been opened" Type="0"/>
+					<ChangePortalType IdOnMap="0" Type="2"/>
+					<ChangePortalType IdOnMap="1" Type="2"/>
+				</OnMapClean>
+			</OnMoveOnMap>
+		</CreateMap>
+		<CreateMap Map="32" VNum="5203" IndexX="4" IndexY="6">
+		
+			<OnCharacterDiscoveringMap>
+				<!--Monster-->
+				<SummonMonster VNum="82" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="82" IsHostile="true" Move="true"/>
+				<SummonMonster VNum="82" IsHostile="true" Move="true">
+					<OnDeath>
+						<SummonMonster VNum="84" IsHostile="true" Move="true"/>
+						<SummonMonster VNum="84" IsHostile="true" Move="true"/>
+					</OnDeath>
+				</SummonMonster>
+				
+				<!--Portal-->
+				<SpawnPortal IdOnMap="3" PositionX="1" PositionY="12" Type="1" ToMap="31" ToX="23" ToY="12"/>
+				<SpawnPortal IdOnMap="2" PositionX="12" PositionY="23" Type="1" ToMap="33" ToX="12" ToY="1"/>
+			</OnCharacterDiscoveringMap>
+			<OnMoveOnMap>
+				<OnMapClean>
+					<SendMessage Value="Doors has been opened" Type="0"/>
+					<ChangePortalType IdOnMap="2" Type="2"/>
+					<ChangePortalType IdOnMap="3" Type="2"/>
+				</OnMapClean>
+			</OnMoveOnMap>
+		</CreateMap>
+		<CreateMap Map="33" VNum="5203" IndexX="4" IndexY="7">
+		
+			<OnCharacterDiscoveringMap>
+				<SummonNpc VNum="341" PositionX="10" PositionY="13" IsHostile="true" Move="true" />
+				<SpawnPortal IdOnMap="0" PositionX="12" PositionY="1" Type="1" ToMap="32" ToX="12" ToY="23"/>
+				<SpawnPortal IdOnMap="2" PositionX="12" PositionY="23" Type="4" ToMap="0" ToX="0" ToY="0">
+					<OnTraversal>
+						<End Type="5"/>
+					</OnTraversal>
+				</SpawnPortal>
+			</OnCharacterDiscoveringMap>
+		</CreateMap>
+	</InstanceEvents>
+</Definition>

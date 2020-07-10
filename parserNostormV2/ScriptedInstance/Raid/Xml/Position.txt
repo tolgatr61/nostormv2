@@ -1,0 +1,37 @@
+X : MapId X Y
+
+Poule : 2550 19 3
+Namaju : 2560 43 23
+Cuby : 2510 20 5
+Ginseng : 2520 25 1
+Castra : 2500 24 3
+Slade : 2540 29 6
+Arraigné : 2530 24 10
+Grenigas : 2536 26 26
+Glacerus : 2587 12 43
+Draco : 214 16 1
+Kertos : 2553 16 1
+Valakus : 2556 16 1
+Ibra : 2590 15 43
+--- (Apparition des portails à 100% et disparition à 0 à faire apparaitre.)
+Erenia : 236 130 117
+Zenas : 232 104 126
+---
+Kirollas : 2636 20 22
+Carno : 2638 209 49
+
+- la map portail de tp à implémenter + mobs à diviser
+
+Olorun map portail de tp : 2628 63 88
+Belial map portail de tp : 2644 5 56
+Belial : 2644 61 9
+
+
+Yertirand : 2613 22 9
+
+2614-2620
+
+Portail Laurena : Map:122 - X:8 - Y:9 - Dir:2 - Cell:0
+Portail Midgard pour accéder à escalier: 
+Map:260 - X:179 - Y:35 - Dir:2 - Cell:0
+    -> puis accès raid dans les escalier map:2612

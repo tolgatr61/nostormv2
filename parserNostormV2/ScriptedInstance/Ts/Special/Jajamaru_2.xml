@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition>
+   <Globals>
+      <Label Value=""/>
+      <Title Value=""/>
+      <LevelMinimum Value="0"/>
+      <LevelMaximum Value="99"/>
+      <Lives Value="2"/>
+      <RequieredItems>
+         <Item VNum="1832" Amount="1" />
+      </RequieredItems>
+	  <Quest Value = "651"/>
+      <DrawItems>
+      </DrawItems>
+      <SpecialItems>
+      </SpecialItems>
+      <GiftItems>
+      </GiftItems>
+   </Globals>
+   <InstanceEvents>
+      <CreateMap Map="1" VNum="4315" IndexX="0" IndexY="7">
+         <OnCharacterDiscoveringMap>
+            <SendMessage Value="La mission commence dès que tu entres dans la première pièce." Type="0"/>
+         </OnCharacterDiscoveringMap>
+
+         <!-- Portals -->
+         <SpawnPortal IdOnMap="1" PositionX="78" PositionY="49" Type="0" ToMap="2" ToX ="2" ToY ="59"/>
+      </CreateMap>
+      <CreateMap Map="2" VNum="4316" IndexX="0" IndexY="7">
+         <OnCharacterDiscoveringMap>
+            <SendMessage Value="Nouvel objectif de mission !" Type="0"/>
+            <NpcDialog Value="6592"/>
+         </OnCharacterDiscoveringMap>
+         <OnMapClean>
+            <SendMessage Value="Tu as réussi la mission éclair." Type="1"/>
+            <SendMessage Value="Une porte s'est ouverte." Type="0"/>
+            <ChangePortalType IdOnMap="3" Type="2"/>
+            <ChangePortalType IdOnMap="1" Type="2"/>
+            <SendMessage Value="Une porte s'est ouverte." Type="0"/>
+            <ChangePortalType IdOnMap="1" Type="2"/>
+            <RefreshMapItems/>
+         </OnMapClean>
+         <GenerateClock Value="6000"/>
+         <StartClock/>
+
+         <!-- Portals -->
+         <SpawnPortal IdOnMap="3" PositionX="2" PositionY="59" Type="1" ToMap="1" ToX ="78" ToY ="0"/>
+         <SpawnPortal IdOnMap="1" PositionX="110" PositionY="59" Type="1" ToMap="3" ToX ="2" ToY ="59"/>
+
+         <!-- Monsters -->
+         <SummonMonster VNum="408" PositionX="28" PositionY="55"   IsBonus="True">
+            <OnDeath>
+               <SummonMonster VNum="408" PositionX="48" PositionY="59"  IsBonus="True"/>
+               <SummonMonster VNum="409" PositionX="48" PositionY="56"  IsBonus="True"/>
+               <SummonMonster VNum="408" PositionX="44" PositionY="60"  />
+               <SummonMonster VNum="409" PositionX="44" PositionY="57"  />
+               <SummonMonster VNum="408" PositionX="38" PositionY="56"  IsBonus="True">
+                  <OnDeath>
+                     <SummonMonster VNum="408" PositionX="64" PositionY="57"  IsBonus="True">
+                        <OnDeath>
+                           <SummonMonster VNum="408" PositionX="74" PositionY="55"  IsBonus="True"/>
+                           <SummonMonster VNum="409" PositionX="73" PositionY="61"  />
+                           <SummonMonster VNum="408" PositionX="70" PositionY="60"  />
+                        </OnDeath>
+                     </SummonMonster>
+                     <SummonMonster VNum="408" PositionX="63" PositionY="62"  />
+                     <SummonMonster VNum="409" PositionX="60" PositionY="60"  />
+                     <SummonMonster VNum="408" PositionX="60" PositionY="58"  IsBonus="True"/>
+                     <SummonMonster VNum="408" PositionX="53" PositionY="61"  />
+                     <SummonMonster VNum="408" PositionX="53" PositionY="57"  IsBonus="True"/>
+                  </OnDeath>
+               </SummonMonster>
+            </OnDeath>
+         </SummonMonster>
+         <SummonMonster VNum="408" PositionX="30" PositionY="59"  />
+         <SummonMonster VNum="408" PositionX="36" PositionY="57"  IsBonus="True"/>
+         <SummonMonster VNum="409" PositionX="37" PositionY="60"  />
+      </CreateMap>
+      <CreateMap Map="3" VNum="4316" IndexX="1" IndexY="7">
+         <OnCharacterDiscoveringMap>
+            <SendMessage Value="Nouvel objectif de mission !" Type="0"/>
+            <NpcDialog Value="6593"/>
+         </OnCharacterDiscoveringMap>
+         <OnMapClean>
+            <NpcDialog Value="6594"/>
+            <SendMessage Value="Une porte s'est ouverte." Type="0"/>
+            <ChangePortalType IdOnMap="3" Type="2"/>
+            <ChangePortalType IdOnMap="1" Type="2"/>
+            <SendMessage Value="Une porte s'est ouverte." Type="0"/>
+            <ChangePortalType IdOnMap="3" Type="2"/>
+            <RefreshMapItems/>
+         </OnMapClean>
+
+         <!-- Portals -->
+         <SpawnPortal IdOnMap="3" PositionX="2" PositionY="59" Type="1" ToMap="2" ToX ="110" ToY ="0"/>
+         <SpawnPortal IdOnMap="1" PositionX="110" PositionY="59" Type="1" ToMap="4" ToX ="2" ToY ="59"/>
+
+         <!-- Monsters -->
+         <SummonMonster VNum="408" PositionX="29" PositionY="56"   >
+            <OnDeath>
+               <SummonMonster VNum="409" PositionX="59" PositionY="60"  />
+               <SummonMonster VNum="408" PositionX="56" PositionY="57"  />
+               <SummonMonster VNum="408" PositionX="53" PositionY="62"  IsBonus="True">
+                  <OnDeath>
+                     <SummonMonster VNum="409" PositionX="74" PositionY="60"  />
+                     <SummonMonster VNum="408" PositionX="73" PositionY="56"  />
+                     <SummonMonster VNum="408" PositionX="68" PositionY="62"  />
+                     <SummonMonster VNum="409" PositionX="68" PositionY="57"  IsBonus="True">
+                        <OnDeath>
+                           <SummonMonster VNum="409" PositionX="85" PositionY="57"  />
+                           <SummonMonster VNum="408" PositionX="83" PositionY="59"  />
+                           <SummonMonster VNum="408" PositionX="81" PositionY="56"  IsBonus="True"/>
+                           <SummonMonster VNum="408" PositionX="78" PositionY="60"  IsBonus="True"/>
+                        </OnDeath>
+                     </SummonMonster>
+                     <SummonMonster VNum="408" PositionX="67" PositionY="58"  />
+                     <SummonMonster VNum="409" PositionX="64" PositionY="60"  />
+                     <SummonMonster VNum="408" PositionX="59" PositionY="56"  IsBonus="True"/>
+                  </OnDeath>
+               </SummonMonster>
+               <SummonMonster VNum="409" PositionX="52" PositionY="59"  />
+               <SummonMonster VNum="408" PositionX="45" PositionY="56"  IsBonus="True"/>
+            </OnDeath>
+         </SummonMonster>
+         <SummonMonster VNum="409" PositionX="31" PositionY="60"  IsBonus="True"/>
+         <SummonMonster VNum="408" PositionX="34" PositionY="59"  />
+         <SummonMonster VNum="408" PositionX="38" PositionY="57"  />
+         <SummonMonster VNum="409" PositionX="42" PositionY="61"  />
+      </CreateMap>
+      <CreateMap Map="4" VNum="4316" IndexX="2" IndexY="7">
+         <OnCharacterDiscoveringMap>
+            <SendMessage Value="Nouvel objectif de mission !" Type="0"/>
+            <NpcDialog Value="6593"/>
+         </OnCharacterDiscoveringMap>
+         <OnMapClean>
+            <NpcDialog Value="6594"/>
+            <SendMessage Value="Une porte s'est ouverte." Type="0"/>
+            <ChangePortalType IdOnMap="3" Type="2"/>
+            <ChangePortalType IdOnMap="1" Type="2"/>
+            <SendMessage Value="Une porte s'est ouverte." Type="0"/>
+            <ChangePortalType IdOnMap="3" Type="2"/>
+            <RefreshMapItems/>
+         </OnMapClean>
+
+         <!-- Portals -->
+         <SpawnPortal IdOnMap="3" PositionX="2" PositionY="59" Type="1" ToMap="3" ToX ="110" ToY ="0"/>
+         <SpawnPortal IdOnMap="1" PositionX="110" PositionY="59" Type="1" ToMap="5" ToX ="3" ToY ="59"/>
+
+         <!-- Monsters -->
+         <SummonMonster VNum="408" PositionX="27" PositionY="58"  />
+         <SummonMonster VNum="409" PositionX="28" PositionY="61"   IsBonus="True">
+            <OnDeath>
+               <SummonMonster VNum="411" PositionX="47" PositionY="58"  IsBonus="True"/>
+               <SummonMonster VNum="409" PositionX="45" PositionY="55"  />
+               <SummonMonster VNum="411" PositionX="44" PositionY="60"  />
+               <SummonMonster VNum="409" PositionX="43" PositionY="58"  />
+               <SummonMonster VNum="408" PositionX="42" PositionY="56"  />
+               <SummonMonster VNum="409" PositionX="41" PositionY="60"  />
+               <SummonMonster VNum="408" PositionX="39" PositionY="60"  >
+                  <OnDeath>
+                     <SummonMonster VNum="411" PositionX="60" PositionY="61"  />
+                     <SummonMonster VNum="409" PositionX="59" PositionY="57"  />
+                     <SummonMonster VNum="411" PositionX="54" PositionY="59"  IsBonus="True"/>
+                     <SummonMonster VNum="409" PositionX="54" PositionY="56"  IsBonus="True"/>
+                     <SummonMonster VNum="409" PositionX="50" PositionY="60"  />
+                  </OnDeath>
+               </SummonMonster>
+            </OnDeath>
+         </SummonMonster>
+         <SummonMonster VNum="409" PositionX="32" PositionY="57"  IsBonus="True"/>
+         <SummonMonster VNum="411" PositionX="35" PositionY="60"  />
+         <SummonMonster VNum="409" PositionX="36" PositionY="59"  />
+         <SummonMonster VNum="411" PositionX="38" PositionY="57"  />
+      </CreateMap>
+      <CreateMap Map="5" VNum="4317" IndexX="3" IndexY="7">
+         <OnCharacterDiscoveringMap>
+            <SendMessage Value="Nouvel objectif de mission !" Type="0"/>
+            <SummonMonster VNum="409" PositionX="20" PositionY="60"  />
+            <SummonMonster VNum="409" PositionX="24" PositionY="55"  />
+            <SummonMonster VNum="409" PositionX="27" PositionY="59"  />
+            <SummonMonster VNum="411" PositionX="32" PositionY="56"  IsBonus="True"/>
+            <NpcDialog Value="6593"/>
+         </OnCharacterDiscoveringMap>
+         <OnMapClean>
+            <NpcDialog Value="6595"/>
+            <SendMessage Value="Une porte s'est ouverte." Type="0"/>
+            <ChangePortalType IdOnMap="3" Type="2"/>
+            <ChangePortalType IdOnMap="1" Type="2"/>
+            <SendMessage Value="Une porte s'est ouverte." Type="0"/>
+            <ChangePortalType IdOnMap="3" Type="2"/>
+            <RefreshMapItems/>
+         </OnMapClean>
+
+         <!-- Portals -->
+         <SpawnPortal IdOnMap="3" PositionX="3" PositionY="59" Type="1" ToMap="4" ToX ="110" ToY ="0"/>
+         <SpawnPortal IdOnMap="1" PositionX="98" PositionY="59" Type="1" ToMap="6" ToX ="3" ToY ="59"/>
+      </CreateMap>
+      <CreateMap Map="6" VNum="4318" IndexX="4" IndexY="7">
+         <OnCharacterDiscoveringMap>
+            <SendMessage Value="Nouvel objectif de mission !" Type="0"/>
+            <NpcDialog Value="6596"/>
+         </OnCharacterDiscoveringMap>
+         <OnMapClean>
+            <NpcDialog Value="6597"/>
+            <SendMessage Value="Une porte s'est ouverte." Type="0"/>
+            <ChangePortalType IdOnMap="3" Type="2"/>
+            <ChangePortalType IdOnMap="1" Type="2"/>
+            <SendMessage Value="Une porte s'est ouverte." Type="0"/>
+            <ChangePortalType IdOnMap="3" Type="2"/>
+            <RefreshMapItems/>
+         </OnMapClean>
+
+         <!-- Portals -->
+         <SpawnPortal IdOnMap="3" PositionX="3" PositionY="59" Type="1" ToMap="5" ToX ="98" ToY ="0"/>
+         <SpawnPortal IdOnMap="1" PositionX="98" PositionY="59" Type="1" ToMap="7" ToX ="3" ToY ="59"/>
+
+         <!-- Npcs -->
+         <SummonNpc VNum="423" PositionX="61" PositionY="55"  />
+
+         <!-- Monsters -->
+         <SummonMonster VNum="409" PositionX="21" PositionY="60"   IsBonus="True">
+            <OnDeath>
+               <SummonMonster VNum="409" PositionX="43" PositionY="60"  />
+               <SummonMonster VNum="411" PositionX="43" PositionY="57"  />
+               <SummonMonster VNum="409" PositionX="40" PositionY="56"  />
+               <SummonMonster VNum="411" PositionX="38" PositionY="60"  />
+               <SummonMonster VNum="409" PositionX="36" PositionY="56"  IsBonus="True">
+                  <OnDeath>
+                     <SummonMonster VNum="411" PositionX="64" PositionY="58"  />
+                     <SummonMonster VNum="410" PositionX="63" PositionY="61"  IsBonus="True">
+                        <OnDeath>
+                           <SummonMonster VNum="411" PositionX="80" PositionY="61"  IsBonus="True"/>
+                        </OnDeath>
+                     </SummonMonster>
+                     <SummonMonster VNum="409" PositionX="59" PositionY="58"  />
+                     <SummonMonster VNum="411" PositionX="57" PositionY="62"  >
+                        <OnDeath>
+                           <SummonMonster VNum="411" PositionX="77" PositionY="60"  IsBonus="True"/>
+                           <SummonMonster VNum="409" PositionX="73" PositionY="57"  />
+                           <SummonMonster VNum="411" PositionX="71" PositionY="60"  />
+                           <SummonMonster VNum="409" PositionX="68" PositionY="61"  />
+                           <SummonMonster VNum="409" PositionX="67" PositionY="56"  />
+                        </OnDeath>
+                     </SummonMonster>
+                     <SummonMonster VNum="409" PositionX="53" PositionY="57"  />
+                     <SummonMonster VNum="409" PositionX="48" PositionY="59"  />
+                  </OnDeath>
+               </SummonMonster>
+               <SummonMonster VNum="409" PositionX="34" PositionY="60"  />
+            </OnDeath>
+         </SummonMonster>
+         <SummonMonster VNum="409" PositionX="26" PositionY="56"  />
+         <SummonMonster VNum="409" PositionX="27" PositionY="60"  />
+         <SummonMonster VNum="409" PositionX="30" PositionY="59"  />
+         <SummonMonster VNum="411" PositionX="35" PositionY="58"  />
+      </CreateMap>
+      <CreateMap Map="7" VNum="4319" IndexX="5" IndexY="7">
+         <OnCharacterDiscoveringMap>
+            <SendMessage Value="Nouvel objectif de mission !" Type="0"/>
+            <NpcDialog Value="6598"/>
+         </OnCharacterDiscoveringMap>
+
+         <!-- Portals -->
+         <SpawnPortal IdOnMap="3" PositionX="3" PositionY="59" Type="1" ToMap="6" ToX ="98" ToY ="0"/>
+
+         <!-- Npcs -->
+         <SummonNpc VNum="423" PositionX="30" PositionY="58"  />
+         <SummonNpc VNum="417" PositionX="33" PositionY="58"  />
+
+         <!-- Monsters -->
+         <SummonMonster VNum="418" PositionX="66" PositionY="58"  IsTarget="True" IsBonus="True">
+            <OnDeath>
+               <NpcDialog Value="6599"/>
+               <SendMessage Value="Nouvel objectif de mission !" Type="0"/>
+               <SendMessage Value="Tu as réussi la mission éclair." Type="1"/>
+               <ClearMapMonsters/>
+               <SummonMonster VNum="411" PositionX="62" PositionY="60"  />
+               <SummonMonster VNum="408" PositionX="60" PositionY="57"  />
+               <SummonMonster VNum="408" PositionX="58" PositionY="60"  IsBonus="True"/>
+               <SummonMonster VNum="411" PositionX="58" PositionY="57"  />
+               <SummonMonster VNum="409" PositionX="55" PositionY="60"  />
+               <SummonMonster VNum="408" PositionX="55" PositionY="55"  />
+               <SummonMonster VNum="408" PositionX="54" PositionY="58"  />
+               <SummonMonster VNum="408" PositionX="51" PositionY="61"  />
+            </OnDeath>
+         </SummonMonster>
+         <SummonMonster VNum="408" PositionX="24" PositionY="57"  />
+         <SummonMonster VNum="408" PositionX="26" PositionY="61"  />
+         <SummonMonster VNum="408" PositionX="27" PositionY="58"  />
+         <SummonMonster VNum="409" PositionX="29" PositionY="60"  />
+         <SummonMonster VNum="409" PositionX="32" PositionY="56"  />
+         <SummonMonster VNum="411" PositionX="33" PositionY="61"   >
+            <OnDeath>
+               <SummonMonster VNum="411" PositionX="50" PositionY="58"  />
+               <SummonMonster VNum="409" PositionX="46" PositionY="59"  />
+               <SummonMonster VNum="411" PositionX="45" PositionY="60"  />
+               <SummonMonster VNum="409" PositionX="41" PositionY="57"  />
+               <SummonMonster VNum="409" PositionX="38" PositionY="60"  />
+            </OnDeath>
+         </SummonMonster>
+      </CreateMap>
+   </InstanceEvents>
+</Definition>
